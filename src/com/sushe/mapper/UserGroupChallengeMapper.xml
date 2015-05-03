@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sushe.dao.UserGroupChallengeMapper" >
+  <resultMap id="groupResultMap" type="com.sushe.entity.UserGroupChallenge" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="VARCHAR" />
+    <result column="note" property="note" jdbcType="VARCHAR" />
+    <result column="user_group_id" property="userGroupId" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="challenge_time" property="challengeTime" jdbcType="DATE" />
+    <result column="accept_group_id" property="acceptGroupId" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, name, type, note, user_group_id, address, challenge_time, accept_group_id, status
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="groupResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from user_group_challenge
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from user_group_challenge
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.sushe.entity.UserGroupChallenge" >
+    insert into user_group_challenge (id, name, type, 
+      note, user_group_id, address, 
+      challenge_time, accept_group_id, status
+      )
+    values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{type,jdbcType=VARCHAR}, 
+      #{note,jdbcType=VARCHAR}, #{userGroupId,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, 
+      #{challengeTime,jdbcType=DATE}, #{acceptGroupId,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.sushe.entity.UserGroupChallenge" >
+    insert into user_group_challenge
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="type != null" >
+        type,
+      </if>
+      <if test="note != null" >
+        note,
+      </if>
+      <if test="userGroupId != null" >
+        user_group_id,
+      </if>
+      <if test="address != null" >
+        address,
+      </if>
+      <if test="challengeTime != null" >
+        challenge_time,
+      </if>
+      <if test="acceptGroupId != null" >
+        accept_group_id,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null" >
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="note != null" >
+        #{note,jdbcType=VARCHAR},
+      </if>
+      <if test="userGroupId != null" >
+        #{userGroupId,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="challengeTime != null" >
+        #{challengeTime,jdbcType=DATE},
+      </if>
+      <if test="acceptGroupId != null" >
+        #{acceptGroupId,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sushe.entity.UserGroupChallenge" >
+    update user_group_challenge
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null" >
+        type = #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="note != null" >
+        note = #{note,jdbcType=VARCHAR},
+      </if>
+      <if test="userGroupId != null" >
+        user_group_id = #{userGroupId,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="challengeTime != null" >
+        challenge_time = #{challengeTime,jdbcType=DATE},
+      </if>
+      <if test="acceptGroupId != null" >
+        accept_group_id = #{acceptGroupId,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sushe.entity.UserGroupChallenge" >
+    update user_group_challenge
+    set name = #{name,jdbcType=VARCHAR},
+      type = #{type,jdbcType=VARCHAR},
+      note = #{note,jdbcType=VARCHAR},
+      user_group_id = #{userGroupId,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      challenge_time = #{challengeTime,jdbcType=DATE},
+      accept_group_id = #{acceptGroupId,jdbcType=VARCHAR},
+      status = #{status,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>
