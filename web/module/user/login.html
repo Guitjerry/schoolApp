@@ -29,14 +29,50 @@
             <div class="ui-tab-control">
 
                 <ul class="clearfix" style="list-style: none;padding: 0;margin: 0">
-                    <li class="active" data-name="member_regiest">
+                    <li  data-name="member_regiest" href="#" onclick="regiest_click(this)">
                         会员注册
                     </li>
-                    <li class="" data-name="member_login">
+                    <li class="active" data-name="member_login" onclick="login_click(this)">
                         会员登陆
                     </li>
 
                 </ul>
+            </div>
+            <div class="ui-tab-container">
+                <div class="ui-tab-toggle">
+                    <form action="" class="login-form" autocomplete="off">
+                        <div>
+                            <input name="user_login" class="text input-xlarge" type="text" validate-title="登陆邮箱"
+                                   placeholder="请输入登陆账户">
+                        </div>
+                        <div>
+                            <input name="user_pwd" class="text input-xlarge" type="password" validate-title="密码"
+                                    placeholder="请输入登陆密码">
+                        </div>
+                        <div class="optional">
+                            <div class="clearfix">
+                                <a class="link-findpwd" href="#" target="_blank">找回密码</a>
+                                <label><input type="checkbox" name="chk_remember_pwd" value="on" class="checkbox"> 下次自动登录</label>
+                            </div>
+                        </div>
+                        <div class="actions"><input type="submit" class="btn btn-warning" value="立即登陆" name="login_btn"></div>
+                    </form>
+                </div>
+                <div class="ui-tab-toggle">
+                    <form  method="post" class="reg-form" autocomplete="off">
+
+                        <div>
+                            <input name="h_name" class="text input-xlarge" type="text" data-selector="username" validate-title="真实姓名" validate-rules="['required',['cn','$必须由汉字组成'],['length',{'max':5,'min':2},'$长度必须介于 2 位和 5 位之间']]" placeholder="请填写中文真实姓名" data-valid="false">
+                        </div>
+                        <div>
+                            <input name="user_login" class="text input-xlarge" type="text" data-selector="email" validate-title="登录邮箱" validate-rules="['required','email']" value="" placeholder="请填写有效邮箱，用以登录网站">
+                        </div>
+
+                        <div class="actions">
+                            <input type="submit" class="btn btn-warning" name="btn" value="立即注册">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -44,3 +80,21 @@
 
 </body>
 </html>
+<script src="../../module/jquery.min.js"></script>
+<script>
+    //会员注册
+    function regiest_click(obj){
+        var obj=$(obj);
+        obj.parent("ul").children("li").eq(0).removeClass("active").addClass("active");
+        obj.parent("ul").children("li").eq(1).removeClass("active");
+        $(".ui-tab-container .ui-tab-toggle").eq(0).removeClass("hide").addClass("hide");
+        $(".ui-tab-container .ui-tab-toggle").eq(1).removeClass("hide");
+    }
+    function login_click(obj){
+        var obj=$(obj);
+        obj.parent("ul").children("li").eq(1).removeClass("active").addClass("active");
+        obj.parent("ul").children("li").eq(0).removeClass("active");
+        $(".ui-tab-container .ui-tab-toggle").eq(1).removeClass("hide").addClass("hide");
+        $(".ui-tab-container .ui-tab-toggle").eq(0).removeClass("hide");
+    }
+</script>
