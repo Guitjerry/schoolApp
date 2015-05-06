@@ -46,3 +46,78 @@
     background: #555;
     cursor: default;
 }
+
+.user-login-reg .ui-tab-container{
+    padding: 2px 20px 30px 20px;
+}
+.user-login-reg .ui-tab-container input{
+    background: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    display: inline-block;
+    color: #555;
+    vertical-align: middle;
+    font-weight: 400;
+}
+.user-login-reg .input-xlarge{
+    width:220px;
+    padding: 4px 8px;
+    border-radius: 0;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+
+input.input-xlarge{
+    height: 36px;
+    line-height: 36px;
+    padding: 4px 8px;
+}
+
+.user-login-reg .optional{
+    color:#aaabab;
+    padding-top: 14px;
+    height: 20px;
+}
+
+.user-login-reg .optional a{
+    text-decoration: none;
+    float: right;
+    margin-top:2px;
+    color: #aaabab;
+}
+.user-login-reg .login-form .actions{
+    padding-top: 45px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.user-login-reg .reg-form .actions{
+    padding-top: 45px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.user-login-reg .login-form .actions .btn-warning{
+    cursor: pointer;
+    border-radius: 0;
+    width: 238px;
+    height: 48px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #fa0;
+    border: none;
+}
+.user-login-reg .reg-form .actions .btn-warning{
+    cursor: pointer;
+    border-radius: 0;
+    width: 238px;
+    height: 48px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #fa0;
+    border: none;
+}
+.hide{
+    display: none;
+}
+
