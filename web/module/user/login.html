@@ -19,7 +19,7 @@
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../module/bootstrap.min.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="module/user/login.css">
 
 </head>
 <body>
@@ -59,17 +59,22 @@
                     </form>
                 </div>
                 <div class="ui-tab-toggle">
-                    <form  method="post" class="reg-form" autocomplete="off">
-
+                    <form id="regiest_form" method="post" class="reg-form" autocomplete="off">
                         <div>
-                            <input name="h_name" class="text input-xlarge" type="text" data-selector="username" validate-title="真实姓名" validate-rules="['required',['cn','$必须由汉字组成'],['length',{'max':5,'min':2},'$长度必须介于 2 位和 5 位之间']]" placeholder="请填写中文真实姓名" data-valid="false">
+                            <input name="account" class="text input-xlarge" type="text" data-selector="account" validate-title="登陆账号" validate-rules="['required','account']" value="" placeholder="请填写有效邮箱，用以登录网站">
                         </div>
                         <div>
-                            <input name="user_login" class="text input-xlarge" type="text" data-selector="email" validate-title="登录邮箱" validate-rules="['required','email']" value="" placeholder="请填写有效邮箱，用以登录网站">
+                            <input name="name" class="text input-xlarge" type="text" data-selector="name" validate-title="用户名称" validate-rules="['required','name']" value="" placeholder="请填写有效用户名称">
                         </div>
+                        <div>
+                            <input name="password" class="text input-xlarge" type="password" data-selector="tx_password" validate-title="登录密码" validate-rules="['required','tx_password']" value="" placeholder="请填写登陆密码">
+                        </div>
+                        <!--<div>-->
+                            <!--<input name="re_password" class="text input-xlarge" type="password" data-selector="tx_repassword" validate-title="重复登录密码" validate-rules="['required','tx_repassword']" value="" placeholder="再次填写密码">-->
+                        <!--</div>-->
 
                         <div class="actions">
-                            <input type="submit" class="btn btn-warning" name="btn" value="立即注册">
+                            <input type="button" class="btn btn-warning" name="btn" value="立即注册" onclick="regiest_user()">
                         </div>
                     </form>
                 </div>
@@ -81,8 +86,31 @@
 </body>
 </html>
 <script src="../../module/jquery.min.js"></script>
+<script src="../../module/jquery-form.js"></script>
 <script>
-    //会员注册
+    $(function(){
+        login_click($(".user-login-reg .ui-tab-control ul li").eq(0))
+    })
+    //注册会员
+    function regiest_user(){
+        $("#regiest_form").ajaxForm({
+            url:"user/insertSimple.do",
+            data:$("#regiest_form").serializeArray(),
+            dataType:"json",
+            success:function(data){
+
+            }
+
+        })
+//        $.ajax({
+//
+//            success:function(data){
+//
+//            }
+//        })
+    }
+
+    //会员注册Tab
     function regiest_click(obj){
         var obj=$(obj);
         obj.parent("ul").children("li").eq(0).removeClass("active").addClass("active");
