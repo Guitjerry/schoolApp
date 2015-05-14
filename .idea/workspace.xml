@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e80b746c-6da5-47b9-8313-5f70038cec46" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\.idea\libraries\lib.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sushe/entity/User.java" afterPath="$PROJECT_DIR$/src/com/sushe/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sushe/controller/UserController.java" afterPath="$PROJECT_DIR$/src/com/sushe/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sushe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/com/sushe/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/module/user/login.css" afterPath="$PROJECT_DIR$/web/module/user/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/toastr/ui-toastr.js" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\bootstrap\._bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\bootstrap\._bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\easyui\._easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\easyui\._jquery.easyui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\jquery\._jquery-form.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\jquery\._jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\jquery\._jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\validate\._buttons16.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\validate\._validate.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\validate\._validate.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/WEB-INF/classes/com/sushe/entity/User.class" afterPath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/WEB-INF/classes/com/sushe/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/schoolApp/com/sushe/entity/User.class" afterPath="$PROJECT_DIR$/out/production/schoolApp/com/sushe/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/WEB-INF/classes/com/sushe/controller/UserController.class" afterPath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/WEB-INF/classes/com/sushe/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/schoolApp/com/sushe/controller/UserController.class" afterPath="$PROJECT_DIR$/out/production/schoolApp/com/sushe/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/WEB-INF/classes/com/sushe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/WEB-INF/classes/com/sushe/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/schoolApp/com/sushe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/out/production/schoolApp/com/sushe/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/module/user/login.html" afterPath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/module/user/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/module/user/login.html" afterPath="$PROJECT_DIR$/web/module/user/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/module/user/login.js" afterPath="$PROJECT_DIR$/web/module/user/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schoolApp.iml" afterPath="$PROJECT_DIR$/schoolApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/module/style/rdcp/rdcp.js" afterPath="$PROJECT_DIR$/web/module/style/rdcp/rdcp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="schoolApp.iws" />
@@ -36,21 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/module/main/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.821428" vertical-offset="874" max-vertical-offset="16587">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/module/user/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="893">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -59,29 +62,34 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/module/user/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="44.92857" vertical-offset="1258" max-vertical-offset="1919">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-20.964285" vertical-offset="1218" max-vertical-offset="1995">
+              <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rdcp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/module/style/rdcp/rdcp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="7277">
+              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/module/user/login.css">
+      <file leaf-file-name="ui-toastr.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/module/style/toastr/ui-toastr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="2451">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2318">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28937">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1431570303385" expanded="true" signature="700:719" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +121,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1178">
+              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserGroupChallenge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sushe/entity/UserGroupChallenge.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,7 +151,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validate.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="validate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/module/style/validate/validate.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5529">
@@ -164,10 +182,11 @@
         <option value="$PROJECT_DIR$/src/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/module/main/index.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/module/main/index.jsp" />
-        <option value="$PROJECT_DIR$/web/module/user/login.html" />
         <option value="$PROJECT_DIR$/src/com/sushe/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/module/user/login.html" />
+        <option value="$PROJECT_DIR$/web/module/style/rdcp/rdcp.js" />
       </list>
     </option>
   </component>
@@ -315,6 +334,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="validate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schoolApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schoolApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toastr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,13 +684,13 @@
     <property name="LayoutCode.rearrangeEntriesJSP" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="256" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="255" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="263" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="262" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="263" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="261" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1051" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1055" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="258" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
@@ -658,11 +703,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style\toastr" />
       <recent name="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\style" />
       <recent name="C:\Users\Administrator\Desktop\schoolApp\schoolApp\src\com\sushe\dao" />
       <recent name="C:\Users\Administrator\Desktop\schoolApp\schoolApp\src\com\sushe\entity" />
       <recent name="C:\Users\Administrator\Desktop\schoolApp\schoolApp\src\com\sushe\mapper" />
-      <recent name="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\user" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web" />
@@ -1018,7 +1063,7 @@
       <option name="number" value="Default" />
       <updated>1430643599160</updated>
       <workItem from="1430643604520" duration="4299000" />
-      <workItem from="1431568160915" duration="666000" />
+      <workItem from="1431568160915" duration="2258000" />
     </task>
     <task id="LOCAL-00001" summary="项目框架搭建">
       <created>1431567412486</created>
@@ -1026,11 +1071,23 @@
       <option name="project" value="LOCAL" />
       <updated>1431567412486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="项目框架搭建">
+      <created>1431568834185</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1431568834185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="项目启动跳转到登录页面">
+      <created>1431569021613</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1431569021613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5838000" />
+    <option name="totallyTimeSpent" value="7430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1047,13 +1104,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36756757" sideWeight="0.8614072" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16648649" sideWeight="0.8614072" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3610811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20972973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40972972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1086,7 +1143,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="项目框架搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目框架搭建" />
+    <MESSAGE value="项目启动跳转到登录页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目启动跳转到登录页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1222,14 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1178">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.12" vertical-offset="0" max-vertical-offset="342">
@@ -1273,23 +1323,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23617">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/user/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/user/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="44.92857" vertical-offset="1258" max-vertical-offset="1919">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1431570332615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431570332615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431570332615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431570332615" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1351,6 +1390,51 @@
             <marker date="1430894060000" expanded="true" signature="9081:9102" placeholder="..." />
             <marker date="1430894060000" expanded="true" signature="9541:9562" placeholder="..." />
             <marker date="1430894060000" expanded="true" signature="10058:10079" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1178">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/user/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.964285" vertical-offset="1218" max-vertical-offset="1995">
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/rdcp/rdcp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="7277">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/toastr/ui-toastr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2318">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1431570303385" expanded="true" signature="700:719" placeholder="..." />
           </folding>
         </state>
       </provider>

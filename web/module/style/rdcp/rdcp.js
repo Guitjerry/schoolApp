@@ -23,7 +23,7 @@ var rdcp = {
     /**
      * 默认加载模块
      */
-    defaultLoadModules: ['rdcpui','validate','easyui'],
+    defaultLoadModules: ['rdcpui','validate','easyui','bootstrap'],
 
     /**
      * rdcp所有模块定义<br>
