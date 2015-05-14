@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.*;
 
@@ -42,9 +43,15 @@ public class ActionFilter implements Filter {
 
             }
             actionParam.setUrl(request.getContextPath()+request.getRequestURI());
-            Properties properties=PropertiesUtil.getProperties("module.properties");
+            Properties prop = new Properties();
+            InputStream in = getClass().getResourceAsStream("/module.properties");
+            try{
+                prop.load(in);
+            }catch (Exception e){
+               e.printStackTrace();
+            }
             String url=request.getRequestURI();
-            actionParam.setModule(properties.getProperty(url.substring(0, url.indexOf("/"))));
+            actionParam.setModule(prop.getProperty(url.substring(0, url.indexOf("/"))));
             actionParam.setUrlParams(map);
             JsonUtilTemp.returnJson(actionParam,response);
 
