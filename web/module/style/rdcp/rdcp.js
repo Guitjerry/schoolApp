@@ -23,7 +23,7 @@ var rdcp = {
     /**
      * 默认加载模块
      */
-    defaultLoadModules: ['rdcpui','validate','bootstrap','easyui','toastr'],
+    defaultLoadModules: ['rdcpui','validate','bootstrap','easyui'],
 
     /**
      * rdcp所有模块定义<br>
@@ -56,8 +56,8 @@ var rdcp = {
             dependencies: ['jquery']
         },
         rdcpui:{
-            js:['rdcp/rdcp.util.js','rdcp/rdcp.string.js'],
-            dependencies:['rdcpcore']
+            js:['rdcp/rdcp.util.js','rdcp/rdcp.string.js','rdcp/rdcp.toastr.js'],
+            dependencies:['rdcpcore','toastr']
         },
         //通知js
         toastr:{
