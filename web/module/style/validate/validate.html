@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>验证页面例子</title>
+    <link type="text/css" href="../easyui/easyui.css" rel="stylesheet" />
+    <link type="text/css" href="validate.css" rel="stylesheet" />
+</head>
+<body>
+<form id="test_form">
+    <table>
+        <tr>
+            <td>邮箱:</td>
+            <td><input type="text" class="srValidate" id="email" nullable="false" nullmessage="邮箱 不能为空" pattern="/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/" invalidmessage="邮箱格式不正确"/></p></td>
+        </tr>
+        <tr>
+            <td>手机</td>
+            <td><input type="text" class="srValidate" id="mobile" nullable="false" nullmessage="手机 不能为空"
+                       pattern="/^13[0-9]{1}[0-9]{8}$|15[0189]{1}[0-9]{8}$|189[0-9]{8}$/" invalidmessage="手机格式不正确"/></td>
+        </tr>
+        <tr>
+            <td>是否管理员</td>
+            <td>是<input type="checkbox" class="srValidate" name="isadmin"  nullable="false" nullmessage="请选择是否管理员"/></td>
+            <td>否<input type="checkbox" class="srValidate" name="isadmin"  /></td>
+        </tr>
+        <tr>
+            <td>性别</td>
+            <td>男:<input type="radio" class="srValidate" name="sex"  nullable="false" nullmessage="请选择性别"/></td>
+            <td>女:<input type="radio" class="srValidate" name="sex"  /></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="vaildIteam()" value="验证"/></td>
+        </tr>
+    </table>
+    <div id="test_form-vaild-msg" ></div>
+</form>
+
+
+
+
+<form id="test_form_2">
+    <table>
+        <tr>
+            <td>邮箱:</td>
+            <td><input type="text" class="srValidate" id="email2" nullable="false" nullmessage="邮箱 不能为空" /></p></td>
+        </tr>
+        <tr>
+            <td>手机</td>
+            <td><input type="text" class="srValidate" id="mobile2" nullable="false" nullmessage="手机 不能为空"
+                       pattern="/^13[0-9]{1}[0-9]{8}$|15[0189]{1}[0-9]{8}$|189[0-9]{8}$/" invalidmessage="手机格式不正确"/></td>
+
+
+        </tr>
+        <tr>
+            <td><input class="input" class="srValidate" type="text" name="birthday" id="birthday" class="laydate-icon"
+                       nullable="false" nullmessage="时间不能为空"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="vaildIteam2()" value="验证"/></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
+<script type="text/javascript" src="../jquery/jquery.min.js" ></script>
+<script type="text/javascript" src="validate.js"></script>
+<script type="text/javascript" src="../easyui/jquery.easyui.min.js"></script>
+
+<script>
+    $(function(){
+        initValidate();
+    })
+    function vaildIteam(){
+        if(validateForm('test_form')) {
+
+        }
+    }
+    function vaildIteam2(){
+        if(validateForm('test_form_2')) {
+
+        }
+    }
+
+
+</script>

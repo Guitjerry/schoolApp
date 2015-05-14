@@ -1,0 +1,20 @@
+
+.wrongTipsBox{ width: 250px; overflow: hidden; background: #fbe2e3; border:1px solid #ebbebe;}
+.wrongLine{ text-indent: 26px;  height: 30px; line-height: 30px;border-bottom:1px solid #ebbebe; font-size: 12px; background: url(wrongTips.png) no-repeat left center}
+.wrongLine p{ margin:0px; color: #db2317; font-weight: 700;}
+
+.btn_ok{
+
+    background-image: url(buttons16.png);
+    background-repeat: no-repeat;
+    background-position:0px -782px;
+    height: 16px;
+    min-width: 16px;
+    text-indent: 16px;
+    line-height: 16px;
+    cursor: pointer;
+    display:inline-block;
+    font-size: 12px;
+    color: #344348;
+    text-decoration: none;
+    vertical-align:bottom;}
