@@ -51,5 +51,22 @@ public class JsonUtilTemp {
             e.printStackTrace();
         }
     }
+    /**
+     * 接口发生异常
+     * @param response
+     * @param msg
+     * @throws Exception
+     */
+    public static void returnExceptionJson(HttpServletResponse response,String msg){
+        response.setContentType("text/html;charset=UTF-8");
+        Result result=new Result("exception",msg);
+        PrintWriter writer= null;
+        try {
+            writer = response.getWriter();
+            writer.write(JSON.toJSONString(result));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
 

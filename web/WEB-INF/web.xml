@@ -32,7 +32,8 @@
     <init-param>
       <description>类型(插入,读出)</description>
       <param-name>debug_type</param-name>
-      <param-value>only_read</param-value>
+      <!--<param-value>only_read</param-value>-->
+      <param-value>only_insert</param-value>
     </init-param>
   </filter>
   <filter-mapping>

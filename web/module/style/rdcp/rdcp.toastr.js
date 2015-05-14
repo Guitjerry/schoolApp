@@ -22,22 +22,22 @@ rdcp.toastrDefaults={
  * @param title 标题
  * @param option 具体参数
  */
-rdcp.toastrSuccessMessage=function(type,msg,title,option){
+rdcp.toastrSuccessMessage=function(msg,title,option){
     var optionsParam= $.extend({},rdcp.toastrDefaults,option);
     toastr.options=optionsParam;
     toastr['success'](msg,title)
 }
-rdcp.toastrInfoMessage=function(type,msg,title,option){
+rdcp.toastrInfoMessage=function(msg,title,option){
     var optionsParam= $.extend({},rdcp.toastrDefaults,option);
     toastr.options=optionsParam;
     toastr['info'](msg,title)
 }
-rdcp.toastrWarnMessage=function(type,msg,title,option){
+rdcp.toastrWarnMessage=function(msg,title,option){
     var optionsParam= $.extend({},rdcp.toastrDefaults,option);
     toastr.options=optionsParam;
     toastr['warning'](msg,title)
 }
-rdcp.toastrErrorMessage=function(type,msg,title,option){
+rdcp.toastrErrorMessage=function(msg,title,option){
     var optionsParam= $.extend({},rdcp.toastrDefaults,option);
     toastr.options=optionsParam;
     toastr['error'](msg,title)

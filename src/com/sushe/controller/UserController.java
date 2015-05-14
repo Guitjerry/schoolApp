@@ -48,6 +48,7 @@ public class UserController {
     public void insertSimple(HttpServletRequest request,HttpServletResponse response, User user){
         try{
             user.setId(UUID.randomUUID().toString());
+            request.getSession().setAttribute("user",user);
             int userId= userService.insertSimple(user);
             JsonUtilTemp.returnSucessJson(response,"会员注册成功");
         }catch (Exception e){
@@ -82,6 +83,25 @@ public class UserController {
             e.printStackTrace();
             JsonUtilTemp.returnFailJson(response, "插入失败");
         }
+    }
+    @SuppressWarnings("finally")
+    @RequestMapping(value = "/selectByAccount")
+    public void selectByAccount(HttpServletResponse response,HttpServletRequest request){
+        String account=request.getParameter("account");
+        Integer total=null;
+        try{
+            total=userService.selectByAccount(account);
+            if(total>0){
+                JsonUtilTemp.returnFailJson(response,"用户已存在!");
+            }else{
+                JsonUtilTemp.returnSucessJson(response, "用户没有被注册!");
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+            JsonUtilTemp.returnExceptionJson(response, "查询数据失败,接口异常");
+        }
+
+
     }
 
 }

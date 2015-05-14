@@ -28,6 +28,13 @@
     from user
     where id = #{id,jdbcType=VARCHAR}
   </select>
+
+  <select id="selectByAccount" resultMap="UserResultMap" parameterType="java.lang.String">
+      SELECT count(*) AS  total FROM USER WHERE account=#{account,jdbcType=VARCHAR}
+
+  </select>
+
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
     delete from user
     where id = #{id,jdbcType=VARCHAR}
@@ -47,7 +54,7 @@
 
   <insert id="insertSimple" parameterType="com.sushe.entity.User" >
     insert into user (id, name,account,password)
-    values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},#{password,jdbcType=VARCHAR})
+    values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR},#{account,jdbcType=VARCHAR},#{password,jdbcType=VARCHAR})
   </insert>
 
   <insert id="insertSelective" parameterType="com.sushe.entity.User" >

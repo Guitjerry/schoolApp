@@ -30,4 +30,14 @@ public class UserServiceImpl implements UserService {
     public int insertSimple(User user) {
         return userDao.insertSimple(user);
     }
+
+    @Override
+    public Integer selectByAccount(String account) {
+        Integer total=null;
+        total=userDao.selectByAccount(account);
+        if(total==null){
+            total=0;
+        }
+        return total;
+    }
 }

@@ -27,17 +27,33 @@ function regiest_user(){
     }
     if(validateForm("regiest_form")){
         var param=rdcp.serializeObject('#regiest_form');
+
+
         $.ajax({
-            url:"user/insertSimple.do",
-            data:param,
-            type:"post",
+            url:"user/selectByAccount.do?account="+$("input[name='account']").val(),
             success:function(data){
-               var obj= rdcp.str2json(data);
+                var obj= rdcp.str2json(data);
                 if(obj.status=='success'){
-                    rdcp.toastrInfoMessage("info",obj.msg,"");
+                    $.ajax({
+                        url:"user/insertSimple.do",
+                        data:param,
+                        type:"post",
+                        success:function(data){
+                            var obj= rdcp.str2json(data);
+                            if(obj.status=='success'){
+                                rdcp.toastrInfoMessage(obj.msg,"系统提示");
+                            }else{
+                                rdcp.toastrErrorMessage(obj.msg,"系统提示");
+                            }
+                        }
+                    })
+                }else{
+                    rdcp.toastrErrorMessage(obj.msg,"系统提示");
                 }
             }
+
         })
+
 
     }
 }
