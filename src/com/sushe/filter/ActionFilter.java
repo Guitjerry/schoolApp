@@ -42,16 +42,17 @@ public class ActionFilter implements Filter {
                 }
 
             }
-            actionParam.setUrl(request.getContextPath()+request.getRequestURI());
-            Properties prop = new Properties();
-            InputStream in = getClass().getResourceAsStream("/module.properties");
-            try{
-                prop.load(in);
-            }catch (Exception e){
-               e.printStackTrace();
-            }
+            actionParam.setUrl(request.getRequestURI());
+//            Properties prop = new Properties();
+//            InputStream in = getClass().getResourceAsStream("/module.properties");
+//            try{
+//                prop.load(in);
+//            }catch (Exception e){
+//               e.printStackTrace();
+//            }
             String url=request.getRequestURI();
-            actionParam.setModule(prop.getProperty(url.substring(0, url.indexOf("/"))));
+            String moduleStr=url.substring(url.indexOf("/")+1, url.indexOf("/", 1));
+            actionParam.setModule(moduleStr);
             actionParam.setUrlParams(map);
             JsonUtilTemp.returnJson(actionParam,response);
 
