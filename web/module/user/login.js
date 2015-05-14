@@ -32,10 +32,8 @@ function regiest_user(){
             data:param,
             type:"post",
             success:function(data){
-                if(data.status=='success'){
+                if(data.status='success'){
                     alert('注册用户成功')
-                }else{
-                    alert(data.msg);
                 }
             }
         })

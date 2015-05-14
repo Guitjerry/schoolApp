@@ -4,6 +4,8 @@
   <resultMap id="UserResultMap" type="com.sushe.entity.User" >
     <id column="id" property="id" jdbcType="VARCHAR" />
     <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="account" property="account" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
     <result column="school_id" property="schoolId" jdbcType="VARCHAR" />
     <result column="hostel_id" property="hostelId" jdbcType="VARCHAR" />
     <result column="department" property="department" jdbcType="VARCHAR" />
@@ -44,8 +46,8 @@
   </insert>
 
   <insert id="insertSimple" parameterType="com.sushe.entity.User" >
-    insert into user (id, name)
-    values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR})
+    insert into user (id, name,account,password)
+    values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},#{password,jdbcType=VARCHAR})
   </insert>
 
   <insert id="insertSelective" parameterType="com.sushe.entity.User" >

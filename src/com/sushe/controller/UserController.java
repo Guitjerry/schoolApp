@@ -7,9 +7,12 @@ import com.sushe.service.DepartMentService;
 import com.sushe.service.SchoolService;
 import com.sushe.service.UserService;
 import com.sushe.util.JsonUtilTemp;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -24,16 +27,6 @@ import java.util.UUID;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-    public String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     @Resource
     private UserService userService;
     @Resource
@@ -51,19 +44,19 @@ public class UserController {
     }
     @SuppressWarnings("finally")
     @RequestMapping(value = "/insertSimple")
-    public void insertSimple(HttpServletRequest request,HttpServletResponse response){
-        User user=new User();
+    @ResponseBody
+    public void insertSimple(HttpServletRequest request,HttpServletResponse response, User user){
         try{
             user.setId(UUID.randomUUID().toString());
-            user.setName("aa");
             int userId= userService.insertSimple(user);
-            JsonUtilTemp.returnSucessJson(response,"插入成功");
+            JsonUtilTemp.returnSucessJson(response,"会员注册成功");
         }catch (Exception e){
             e.printStackTrace();
-            JsonUtilTemp.returnFailJson(response, "插入失败");
+            JsonUtilTemp.returnFailJson(response, "会员注册失败");
         }
 
     }
+
     @SuppressWarnings("finally")
     @RequestMapping(value = "/selectSchool")
     public void selectSchool(HttpServletResponse response){
@@ -90,14 +83,5 @@ public class UserController {
             JsonUtilTemp.returnFailJson(response, "插入失败");
         }
     }
-
-
-
-
-
-
-
-
-
 
 }
