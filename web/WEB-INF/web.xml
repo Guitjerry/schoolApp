@@ -51,6 +51,6 @@
     <session-timeout>15</session-timeout>
   </session-config>
   <welcome-file-list>
-    <welcome-file>module/main/index.jsp</welcome-file>
+    <welcome-file>module/user/login.html</welcome-file>
   </welcome-file-list>
 </web-app>
