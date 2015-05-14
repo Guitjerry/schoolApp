@@ -24,7 +24,23 @@
     <filter-name>encodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
-  
+
+  <filter>
+    <description>记录各个请求</description>
+    <filter-name>actionParamFilter</filter-name>
+    <filter-class>com.sushe.filter.ActionFilter</filter-class>
+    <init-param>
+      <description>类型(插入,读出)</description>
+      <param-name>debug_type</param-name>
+      <param-value>only_read</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>actionParamFilter</filter-name>
+    <url-pattern>*.do</url-pattern>
+  </filter-mapping>
+
+
   <listener>
     <description>spring监听器</description>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
