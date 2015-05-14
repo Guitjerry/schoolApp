@@ -12,7 +12,7 @@ var rdcp = {
     /**
      * baseScriptPath:从WebRoot开始,指定RDCPJS根目录.如:'scripts/RDCPJS/'<br>
      */
-    baseScriptPath: 'module/style/',
+    baseScriptPath: '/module/style/',
 
 
     /**
@@ -23,7 +23,7 @@ var rdcp = {
     /**
      * 默认加载模块
      */
-    defaultLoadModules: ['rdcpui','validate','easyui','bootstrap'],
+    defaultLoadModules: ['rdcpui','validate','bootstrap','easyui','toastr'],
 
     /**
      * rdcp所有模块定义<br>
@@ -56,9 +56,15 @@ var rdcp = {
             dependencies: ['jquery']
         },
         rdcpui:{
-            js:['rdcp/rdcp.util.js'],
+            js:['rdcp/rdcp.util.js','rdcp/rdcp.string.js'],
             dependencies:['rdcpcore']
+        },
+        //通知js
+        toastr:{
+            js:['toastr/toastr.js'],
+            css:['toastr/toastr.css']
         }
+
         //jqueryuploader: {
         //    js: ["lib/jqueryuploader/js/vendor/jquery.ui.widget.js",
         //        'lib/jqueryuploader/js/jquery.iframe-transport.js',
