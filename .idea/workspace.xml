@@ -2,47 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e80b746c-6da5-47b9-8313-5f70038cec46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/main/img/._avatar3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/main/img/._avatar3_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/validate/._buttons16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/main/img/._profile_user.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/user/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/validate/buttons16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/validate/wrongTips.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/bootstrap/._bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/bootstrap/._bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/easyui/._easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/jquery/._jquery-form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/easyui/._jquery.easyui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/jquery/._jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/jquery/._jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/validate/._validate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/validate/._validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/bootstrap/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/bootstrap/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/easyui/easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/jquery/jquery-form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/easyui/jquery.easyui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/jquery/jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/json/json2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/user/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/rdcp/rdcp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/rdcp/rdcp.util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/validate/validate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/validate/validate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/validate/validate.js" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\out\artifacts\schoolApp_war_exploded\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\out\artifacts\schoolApp_war_exploded\module\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\out\artifacts\schoolApp_war_exploded\module\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\out\artifacts\schoolApp_war_exploded\module\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\schoolApp\schoolApp\web\module\jquery.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/module/user/login.html" afterPath="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/module/user/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="schoolApp.iws" />
@@ -82,7 +41,7 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/module/user/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.99682033" vertical-offset="1691" max-vertical-offset="2546">
+            <state vertical-scroll-proportion="1.14" vertical-offset="1691" max-vertical-offset="2546">
               <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -322,6 +281,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesJSP" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -686,10 +646,17 @@
       <updated>1430643599160</updated>
       <workItem from="1430643604520" duration="4299000" />
     </task>
+    <task id="LOCAL-00001" summary="项目框架搭建">
+      <created>1431567412486</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1431567412486</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5013000" />
+    <option name="totallyTimeSpent" value="5172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -701,7 +668,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24432433" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24432433" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -713,7 +680,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3610811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -744,6 +711,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="项目框架搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目框架搭建" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -988,6 +957,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -995,6 +965,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1273" max-vertical-offset="1729">
           <caret line="67" column="53" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,6 +981,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,6 +989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="5745">
           <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,7 +1072,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/module/user/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.99682033" vertical-offset="1691" max-vertical-offset="2546">
+        <state vertical-scroll-proportion="1.14" vertical-offset="1691" max-vertical-offset="2546">
           <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
