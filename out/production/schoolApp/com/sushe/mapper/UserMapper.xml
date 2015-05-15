@@ -22,17 +22,30 @@
     id, name, school_id, hostel_id, department, age, sex, level, education, status, create_time, 
     in_time, is_head
   </sql>
-  <select id="selectByPrimaryKey" resultMap="UserResultMap" parameterType="java.lang.String" >
+  <select id="selectByPrimaryKey" resultType="com.sushe.entity.User" >
     select 
     <include refid="Base_Column_List" />
     from user
     where id = #{id,jdbcType=VARCHAR}
   </select>
-
-  <select id="selectByAccount" resultMap="UserResultMap" parameterType="java.lang.String">
-      SELECT count(*) AS  total FROM USER WHERE account=#{account,jdbcType=VARCHAR}
-
+  <!--根据账号与密码查询用户-->
+  <select id="selectByAccountAndPassword" resultType="com.sushe.entity.User" >
+    select
+    <include refid="Base_Column_List" />
+    from user
+    where account = #{account,jdbcType=VARCHAR}
+    and password=#{password,jdbcType=VARCHAR}
   </select>
+
+  <!--根据账号查询用户-->
+  <select id="selectByAccount" resultMap="UserResultMap">
+    SELECT
+    <include refid="Base_Column_List" />
+    FROM USER WHERE account=#{account,jdbcType=VARCHAR}
+  </select>
+
+
+
 
 
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >

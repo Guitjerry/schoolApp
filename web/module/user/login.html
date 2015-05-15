@@ -36,14 +36,14 @@
             </div>
             <div class="ui-tab-container">
                 <div class="ui-tab-toggle">
-                    <form action="" class="login-form" autocomplete="off">
+                    <form class="login-form" autocomplete="off" id="login_form">
                         <div>
-                            <input name="user_login" class="text input-xlarge" type="text" validate-title="登陆邮箱"
-                                   placeholder="请输入登陆账户">
+                            <input name="account" class="text input-xlarge srValidate" type="text" validate-title="登陆邮箱"
+                                   placeholder="请输入登陆账户" nullable="false" nullmessage="账户不能为空">
                         </div>
                         <div>
-                            <input name="user_pwd" class="text input-xlarge" type="password" validate-title="密码"
-                                   placeholder="请输入登陆密码">
+                            <input name="password" class="text input-xlarge srValidate" type="password" validate-title="密码"
+                                   placeholder="请输入登陆密码" nullable="false" nullmessage="密码不能为空">
                         </div>
                         <div class="optional">
                             <div class="clearfix">
@@ -51,7 +51,9 @@
                                 <label><input type="checkbox" name="chk_remember_pwd" value="on" class="checkbox"> 下次自动登录</label>
                             </div>
                         </div>
-                        <div class="actions"><input type="submit" class="btn btn-warning" value="立即登陆" name="login_btn"></div>
+
+                        <div id="login_form-vaild-msg" style="margin-top: 10px"></div>
+                        <div class="actions"><input type="button" class="btn btn-warning" value="立即登陆"  onclick="login_on()"></div>
                     </form>
                 </div>
 

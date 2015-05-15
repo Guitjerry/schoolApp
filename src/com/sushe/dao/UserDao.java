@@ -2,6 +2,7 @@ package com.sushe.dao;
 
 
 import com.sushe.entity.User;
+import org.apache.ibatis.annotations.Param;
 
 public interface UserDao {
     int deleteByPrimaryKey(String id);
@@ -17,5 +18,7 @@ public interface UserDao {
 
     int updateByPrimaryKey(User record);
 
-    Integer selectByAccount(String account);
+    User selectByAccount(@Param(value = "account") String account);
+    
+    User selectByAccountAndPassword(@Param(value = "account") String account,@Param(value="password") String password);
 }

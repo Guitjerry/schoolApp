@@ -30,7 +30,7 @@ function regiest_user(){
 
 
         $.ajax({
-            url:"user/selectByAccount.do?account="+$("input[name='account']").val(),
+            url:"user/regiestUser.do?account="+$("input[name='account']").val(),
             success:function(data){
                 var obj= rdcp.str2json(data);
                 if(obj.status=='success'){
@@ -56,4 +56,24 @@ function regiest_user(){
 
 
     }
+}
+//登录用户
+function login_on(){
+    if(validateForm("login_form")){
+        var login_param=rdcp.serializeObject('#login_form');
+        $.ajax({
+            url:"user/login.do",
+            data:login_param,
+            success:function(data){
+                var obj= rdcp.str2json(data);
+                if(obj.status=='success'){
+                    rdcp.toastrInfoMessage(obj.msg,"系统提示");
+                }else{
+                    rdcp.toastrErrorMessage(obj.msg,"系统提示");
+                }
+            }
+
+        })
+    }
+
 }

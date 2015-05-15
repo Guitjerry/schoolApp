@@ -14,5 +14,6 @@ public interface UserService {
      */
     public User selectByPrimaryKey(String id);
     public int insertSimple(User user);
-    public Integer selectByAccount(String account);
+    public User selectByAccount(String account);
+    public User selectByAccountAndPassword(String account,String password);
 }

@@ -32,12 +32,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Integer selectByAccount(String account) {
-        Integer total=null;
-        total=userDao.selectByAccount(account);
-        if(total==null){
-            total=0;
-        }
-        return total;
+    public User selectByAccount(String account) {
+        User user=null;
+        user=userDao.selectByAccount(account);
+        return user;
+    }
+    public User selectByAccountAndPassword(String account,String password){
+        User user=null;
+        user=userDao.selectByAccountAndPassword(account,password);
+        return user;
     }
 }

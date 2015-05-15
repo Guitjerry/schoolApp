@@ -88,20 +88,51 @@ public class UserController {
         }
     }
     @SuppressWarnings("finally")
-    @RequestMapping(value = "/selectByAccount")
-    public void selectByAccount(HttpServletResponse response,HttpServletRequest request){
+    @RequestMapping(value = "/regiestUser")
+    public void regiestUser(HttpServletResponse response,HttpServletRequest request){
         String account=request.getParameter("account");
-        Integer total=null;
+        User validateUser=null;
+        User loginUser=null;
         try{
-            total=userService.selectByAccount(account);
-            if(total>0){
-                logger.debug("......................用户已存在");
-                JsonUtilTemp.returnFailJson(response,"用户已存在!");
+                loginUser=userService.selectByAccount(account);
+                if(loginUser!=null){
+                    //logger.debug("......................用户已存在");
+                    JsonUtilTemp.returnFailJson(response,"用户已存在!");
+                }else{
+                    //logger.debug("......................用户没有被注册");
+                    JsonUtilTemp.returnSucessJson(response, "注册用户成功!");
+                }
+            } catch (Exception e){
+            e.printStackTrace();
+            JsonUtilTemp.returnExceptionJson(response, "查询数据失败,接口异常");
+        }
+
+
+    }
+
+    @SuppressWarnings("finally")
+    @RequestMapping(value = "/login")
+    public void selectByAccount(HttpServletResponse response,HttpServletRequest request,User user){
+        User loginUser=null;
+        User validateUser=null;
+        try{
+            validateUser=userService.selectByAccount(user.getAccount());
+            if(validateUser==null){
+                JsonUtilTemp.returnFailJson(response,"账号不存在");
             }else{
-                logger.debug("......................用户没有被注册");
-                JsonUtilTemp.returnSucessJson(response, "用户没有被注册!");
+                loginUser=userService.selectByAccountAndPassword(user.getAccount(), user.getPassword());
+                if(loginUser!=null){
+                    //logger.debug("......................用户已存在");
+                    JsonUtilTemp.returnSucessJson(response,"登录系统成功");
+                    request.getSession().setAttribute("user",user);
+
+                }else{
+                    //logger.debug("......................用户没有被注册");
+                    JsonUtilTemp.returnFailJson(response, ",用户名或密码错误,登录系统失败!");
+                }
             }
-        }catch (Exception e){
+
+        } catch (Exception e){
             e.printStackTrace();
             JsonUtilTemp.returnExceptionJson(response, "查询数据失败,接口异常");
         }
