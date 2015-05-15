@@ -7,6 +7,8 @@ import com.sushe.service.DepartMentService;
 import com.sushe.service.SchoolService;
 import com.sushe.service.UserService;
 import com.sushe.util.JsonUtilTemp;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -33,6 +35,7 @@ public class UserController {
     private SchoolService schoolService;
     @Resource
     private DepartMentService departMentService;
+    private static Logger logger= LoggerFactory.getLogger(UserController.class);
 
     @SuppressWarnings("finally")
     @RequestMapping(value = "/selectUserById",method = RequestMethod.GET)
@@ -92,8 +95,10 @@ public class UserController {
         try{
             total=userService.selectByAccount(account);
             if(total>0){
+                logger.debug("......................用户已存在");
                 JsonUtilTemp.returnFailJson(response,"用户已存在!");
             }else{
+                logger.debug("......................用户没有被注册");
                 JsonUtilTemp.returnSucessJson(response, "用户没有被注册!");
             }
         }catch (Exception e){
