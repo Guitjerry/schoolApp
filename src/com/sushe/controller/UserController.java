@@ -9,12 +9,11 @@ import com.sushe.service.UserService;
 import com.sushe.util.JsonUtilTemp;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -122,9 +121,9 @@ public class UserController {
             }else{
                 loginUser=userService.selectByAccountAndPassword(user.getAccount(), user.getPassword());
                 if(loginUser!=null){
-                    //logger.debug("......................用户已存在");
-                    JsonUtilTemp.returnSucessJson(response,"登录系统成功");
                     request.getSession().setAttribute("user",user);
+                    JsonUtilTemp.returnSucessJson(response, "登录系统成功");
+                    //return new ModelAndView("module/main/index","user",user);
 
                 }else{
                     //logger.debug("......................用户没有被注册");
@@ -136,8 +135,6 @@ public class UserController {
             e.printStackTrace();
             JsonUtilTemp.returnExceptionJson(response, "查询数据失败,接口异常");
         }
-
-
     }
 
 }

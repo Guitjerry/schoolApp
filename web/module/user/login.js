@@ -68,6 +68,8 @@ function login_on(){
                 var obj= rdcp.str2json(data);
                 if(obj.status=='success'){
                     rdcp.toastrInfoMessage(obj.msg,"系统提示");
+                    window.location.href="module/main/index.jsp"
+
                 }else{
                     rdcp.toastrErrorMessage(obj.msg,"系统提示");
                 }

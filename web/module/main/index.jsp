@@ -24,7 +24,7 @@
     <meta name="MobileOptimized" content="320">
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="module/main/index.css"/>
+    <link rel="stylesheet" href="../../module/main/index.css"/>
 </head>
 <body>
 <div class="header navbar  navbar-default navbar-fixed-top">
@@ -130,7 +130,7 @@
                                 <li>
                                     <a href="inbox.html?a=view">
 								<span class="photo">
-									<img src="module/main/img/profile_user.jpg" alt="">
+									<img src="../../module/main/img/profile_user.jpg" alt="">
 								</span>
 								<span class="subject">
 									<span class="from">
@@ -148,7 +148,7 @@
                                 <li>
                                     <a href="inbox.html?a=view">
 								<span class="photo">
-									<img src="module/main/img/profile_user.jpg" alt="">
+									<img src="../../module/main/img/profile_user.jpg" alt="">
 								</span>
 								<span class="subject">
 									<span class="from">
@@ -166,7 +166,7 @@
                                 <li>
                                     <a href="inbox.html?a=view">
 								<span class="photo">
-									<img src="module/main/img/profile_user.jpg" alt="">
+									<img src="../../module/main/img/profile_user.jpg" alt="">
 								</span>
 								<span class="subject">
 									<span class="from">
@@ -184,7 +184,7 @@
                                 <li>
                                     <a href="inbox.html?a=view">
 								<span class="photo">
-									<img src="module/main/img/profile_user.jpg" alt="">
+									<img src="../../module/main/img/profile_user.jpg" alt="">
 								</span>
 								<span class="subject">
 									<span class="from">
@@ -202,7 +202,7 @@
                                 <li>
                                     <a href="inbox.html?a=view">
 								<span class="photo">
-									<img src="module/main/img/profile_user.jpg" alt="">
+									<img src="../../module/main/img/profile_user.jpg" alt="">
 								</span>
 								<span class="subject">
 									<span class="from">
@@ -233,7 +233,7 @@
 
             <li class="dropdown dropdown-user">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
-                    <img alt class="img-circle" src="module/main/img/profile_user.jpg" style="width:36px">
+                    <img alt class="img-circle" src="../../module/main/img/profile_user.jpg" style="width:36px">
                     <span class="username username-hide-on-mobile">
                         Nick
                     </span>
@@ -266,7 +266,7 @@
             <div class="profile-sidebar col-md-3">
                 <div class="portlet light profile-sidebar-portlet">
                     <div class="profile-userpic">
-                        <img src="module/main/img/profile_user.jpg" class="img-responsive">
+                        <img src="../../module/main/img/profile_user.jpg" class="img-responsive">
                     </div>
                     <div class="profile-usertitle">
                         <div class="profile-username">Marcus Doe</div>
@@ -372,13 +372,13 @@
                         <div class="media-box">
                             <ul class="school_media_a school-media_a_m1 clearfix">
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                             </ul>
                         </div>
@@ -450,13 +450,13 @@
                         <div class="media-box">
                             <ul class="school_media_a school-media_a_m1 clearfix">
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                             </ul>
                         </div>
@@ -527,13 +527,13 @@
                         <div class="media-box">
                             <ul class="school_media_a school-media_a_m1 clearfix">
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                             </ul>
                         </div>
@@ -603,13 +603,13 @@
                         <div class="media-box">
                             <ul class="school_media_a school-media_a_m1 clearfix">
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                                 <li class="school-bigcursor">
-                                    <img src="module/main/img/profile_user.jpg" title="放大">
+                                    <img src="../../module/main/img/profile_user.jpg" title="放大">
                                 </li>
                             </ul>
                         </div>
@@ -872,5 +872,5 @@
 
 </body>
 </html>
-<script src="module/jquery.min.js"></script>
-<script src="module/bootstrap.min.js"></script>
+<script src="../../module/style/jquery/jquery.min.js"></script>
+<script src="../../module/style/bootstrap/bootstrap.min.js"></script>
