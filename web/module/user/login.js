@@ -1,4 +1,7 @@
 rdcp.ready(function(){
+    if($(".user-login-reg .ui-tab-control ul li").length>0){
+        $("#main").show();
+    }
     login_click($(".user-login-reg .ui-tab-control ul li").eq(0))
     initValidate();
 });
@@ -20,7 +23,7 @@ function login_click(obj){
 }
 //注册会员
 function regiest_user(){
-    if($("input[name='password']").val()!=$("input[name='re_password']").val()){
+    if($("#regiest_form input[name='password']").val()!=$("#regiest_form input[name='re_password']").val()){
         $("#msg").val("");
     }else{
         $("#msg").val("default");
@@ -30,7 +33,7 @@ function regiest_user(){
 
 
         $.ajax({
-            url:"user/regiestUser.do?account="+$("input[name='account']").val(),
+            url:"user/regiestUser.do?account="+$("#regiest_form input[name='account']").val(),
             success:function(data){
                 var obj= rdcp.str2json(data);
                 if(obj.status=='success'){

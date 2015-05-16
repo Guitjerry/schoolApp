@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="all-1.0">
+  <library name="all">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/aopalliance-1.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/aspectjweaver-1.7.1.jar!/" />
@@ -14,6 +14,7 @@
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mybatis-spring-1.1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.21.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api-3.0-alpha-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.7.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.7.5.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-3.2.0.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RELEASE.jar!/" />
