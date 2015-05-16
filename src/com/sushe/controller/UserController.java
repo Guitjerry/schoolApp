@@ -121,7 +121,7 @@ public class UserController {
             }else{
                 loginUser=userService.selectByAccountAndPassword(user.getAccount(), user.getPassword());
                 if(loginUser!=null){
-                    request.getSession().setAttribute("user",user);
+                    request.getSession().setAttribute("user",loginUser);
                     JsonUtilTemp.returnSucessJson(response, "登录系统成功");
                     //return new ModelAndView("module/main/index","user",user);
 

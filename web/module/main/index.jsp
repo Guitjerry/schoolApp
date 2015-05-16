@@ -1,3 +1,4 @@
+<%@ page import="com.sushe.entity.User" %>
 <%--
   Created by IntelliJ IDEA.
   User: jiangbin
@@ -6,6 +7,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -266,11 +269,12 @@
             <div class="profile-sidebar col-md-3">
                 <div class="portlet light profile-sidebar-portlet">
                     <div class="profile-userpic">
-                        <img src="../../module/main/img/profile_user.jpg" class="img-responsive">
+                        <img src="../../module/main/img/personal.png" class="img-responsive">
                     </div>
                     <div class="profile-usertitle">
-                        <div class="profile-username">Marcus Doe</div>
-                        <div class="profile-userhostel">502x</div>
+
+                        <div class="profile-username">${sessionScope.user.name} </div>
+                        <div class="profile-userhostel">${sessionScope.user.account}</div>
 
                     </div>
                     <div class="profile-userbuttons">

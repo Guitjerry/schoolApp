@@ -19,7 +19,7 @@
     <result column="is_head" property="isHead" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, name, school_id, hostel_id, department, age, sex, level, education, status, create_time, 
+    id, name,account,password, school_id, hostel_id, department, age, sex, level, education, status, create_time,
     in_time, is_head
   </sql>
   <select id="selectByPrimaryKey" resultType="com.sushe.entity.User" >
