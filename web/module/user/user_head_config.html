@@ -16,20 +16,26 @@
         <div class="uploader">
             <div class="status"></div>
             <div class="file-field">
-                <input class="local-file" type="file" name="upload_file" id="resume_uploader">
-                <a href="javascript:;" class="button">上传照片</a>
+
+                <input type="text" name="name">
+                <input class="local-file" type="file" name="file" id="resume_uploader" onchange="ajaxFileUpload()">
+                <a href="#" class="button">上传照片</a>
             </div>
             <p>支持JPG、GIF、PNG格式，图片小于2M</p>
         </div>
         <div class="source_box">
             <div class="photo_cols">
-                <div class="photo photo_source jcrop-default"></div>
+                <div class="photo photo_source jcrop-default">
+
+                </div>
             </div>
         </div>
         <div class="result_box">
             <div class="photo_cols-left">
-                <div class="photo photo_large" style="height: 200px;"></div>
+                <div class="photo photo_large" style="height: 200px;">
+                </div>
                 <div class="btn-save"><a href="javascript:;" class="button">保存头像</a></div>
+
             </div>
             <div class="photo_cols-right">
                 <div class="photo photo_big" style="height: 100px;"></div>
@@ -41,3 +47,31 @@
 </div>
 </body>
 </html>
+<script src="../../module/style/file/ajaxfileupload.js"></script>
+<script>
+    function ajaxFileUpload() {
+        $.ajaxFileUpload
+        (
+                {
+                    url:'/form.do',//用于文件上传的服务器端请求地址
+                    secureuri:false,//一般设置为false
+                    fileElementId:'resume_uploader',//文件上传空间的id属性  <input type="file" id="upload" name="upload" />
+                    dataType:'json',
+                    success: function (data)  //服务器成功响应处理函数
+                    {
+                        if(data.filename!=""&&data.filename!=undefined){
+                            $(".result_box .photo_cols-left .btn-save .button").show();
+                            var person_img='<img src="'+data.upload+data.filename+'"'+'>';
+                            $('.source_box .photo_cols .photo_source').empty().append(person_img);
+                        }
+
+                    },
+                    error: function (data, status, e)//服务器响应失败处理函数
+                    {
+                        alertDiv("error  "+e);
+                    }
+                }
+        );
+        return false;
+    }
+</script>

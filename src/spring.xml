@@ -14,7 +14,7 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd
 
 		<!-- one of the properties available; the maximum file size in bytes -->
 		<property name="maxUploadSize" value="100000"/>
-		<property name="uploadTempDir" value="upload"></property>
+		<!--<property name="uploadTempDir" value="upload"></property>-->
 	</bean>
 	<!--<bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">-->
 		<!--<property name="templateLoaderPath">-->

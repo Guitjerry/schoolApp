@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../module/style/common/common.css">
 <head lang="en">
     <meta charset="UTF-8">
     <title>用户设置</title>
@@ -60,14 +61,14 @@
         }
         /*给Tab Content容器设置高度*/
         #tab_content{
-            height: 190px;
+            height: 290px;
             overflow: hidden;
         }
         /*给每个Tab Content定高度，需要与容器保持一致*/
         #tab_content .content{
             padding: 5px;
             -moz-border-radius: 5px;
-            height: 190px;
+            height: 290px;
             overflow: hidden;
         }
 
@@ -88,7 +89,61 @@
 
         <div id="tab_content">
             <div id="user_view" class="content content-a">
-                Content A
+                    <div class="SR_inputTable">
+                        <div class="SR_inputTableContent">
+                            <div>
+                                <table>
+
+                                    <tr>
+                                        <td class="SR_inputTitle">
+                                            客户名称:
+
+                                        </td>
+                                        <td>
+                                            <input name="customer_name"
+                                                   class="SR_pureInput">
+                                        </td>
+
+
+
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td class="SR_inputTitle">
+                                             学校:
+
+                                        </td>
+                                        <td colspan="3">
+                                            <input name="id_address" id="school" class="SR_pureInput"
+                                                    >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="SR_inputTitle">
+                                            楼号:
+
+                                        </td>
+                                        <td colspan="3">
+                                            <input name="id_address" id="id_address" class="SR_pureInput"
+                                                   >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="SR_inputTitle">
+                                            宿舍号:
+                                        </td>
+                                        <td>
+                                            <input name="POSTAL_ADDRESS" id="POSTAL_ADDRESS"
+                                                    class="SR_pureInput">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
             </div>
             <div id="password_view" class="content content-b">
                 Content B
@@ -113,5 +168,6 @@
             $(this).parent(".profile-tab").children("a").removeClass("active");
             $(this).addClass("active")
         })
+        $(".profile-wrap .profile-main .profile-tab a").eq(0).click();
     })
 </script>
