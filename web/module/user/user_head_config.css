@@ -1,0 +1,175 @@
+ #NTGUID__c {
+    width: 740px;
+    padding: 20px;
+    background-color: #efefef;
+    margin: 0 auto;
+    *zoom: 1;
+}
+
+#NTGUID__c:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#NTGUID__c h2 {
+    font-size: 26px;
+    color: #888;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+    font-family: '微软雅黑', '黑体';
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+#NTGUID__c .privew {
+    margin: 0 20px;
+}
+
+#NTGUID__c .privew .button {
+    display: inline-block;
+    background-color: #ff6d01;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    background-image: -moz-linear-gradient(19% 75% 90deg, #FF5D01, #FF8924);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF8924), to(#FF5D01));
+    font-family: '微软雅黑', '黑体';
+}
+
+#NTGUID__c .privew .uploader {
+    margin-bottom: 20px;
+    *zoom: 1;
+}
+
+#NTGUID__c .privew .uploader:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#NTGUID__c .privew .uploader .status {
+    float: right;
+    color: #ff0000;
+    line-height: 36px;
+    font-size: 14px
+}
+
+#NTGUID__c .privew .uploader .file-field {
+    float: left;
+    width: 100px;
+    height: 36px;
+    position: relative;
+    overflow: hidden;
+}
+
+#NTGUID__c .privew .uploader .file-field input {
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    margin-left: -1px;
+    margin-right: -1px;
+    top: -1px;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+#NTGUID__c .privew .uploader .file-field .button {
+    font-size: 16px;
+    padding: 6px 18px;
+}
+
+#NTGUID__c .privew .uploader p {
+    line-height: 36px;
+    margin-left: 110px;
+    font-size: 14px;
+    color: #999;
+}
+
+#NTGUID__c .privew .source_box {
+    float: left;
+    width: 310px;
+}
+
+#NTGUID__c .privew .result_box {
+    float: right;
+    width: 340px;
+    padding: 20px 0 0 30px;
+    border-left: 1px solid #ccc;
+}
+
+#NTGUID__c .privew .photo {
+    position: relative;
+    overflow: hidden;
+    background-color: #fcfcfc;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+#NTGUID__c .privew .source_box .photo_cols {
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#NTGUID__c .privew .source_box .photo_cols .photo {
+    height: 360px;
+}
+
+#NTGUID__c .privew .source_box .photo_cols .jcrop-default {
+    background-image: url(http://s.lietou-static.com/revs/images/v8/plugins/jcrop/default_af68f8bc.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#NTGUID__c .privew .result_box .photo {
+    border: 1px solid #ccc;
+}
+
+#NTGUID__c .privew .result_box .photo_cols-left {
+    float: left;
+}
+
+#NTGUID__c .privew .result_box .btn-save {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#NTGUID__c .privew .result_box .btn-save .button {
+    display: none;
+    font-size: 23px;
+    padding: 10px 22px;
+}
+
+#NTGUID__c .privew .result_box .photo_cols-right {
+    float: right;
+}
+
+#NTGUID__c .privew .result_box .photo_cols-right .photo {
+    margin: 0 auto 20px;
+}
+
+#NTGUID__c .privew .result_box .photo_large {
+    width: 200px;
+}
+
+#NTGUID__c .privew .result_box .photo_big {
+    width: 100px;
+}
+
+#NTGUID__c .privew .result_box .photo_normal {
+    width: 75px;
+}
+
+#NTGUID__c .privew .result_box .photo_tiny {
+    width: 50px;
+}
+
+#NTGUID__c .privew .source_box .jrotate_box {
+    display: none;
+}

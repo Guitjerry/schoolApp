@@ -47,14 +47,14 @@
 
                     </div>
                     <div class="profile-userbuttons">
-                        <form method="post" enctype="multipart/form-data" action="/form.do" style="position: relative; overflow: hidden;">
-                            <a href="#" class="site-btn site-btn-green" style="cursor: default;" onchange="upload_pro()">上传头像 </a>
-                            <%--<button type="button" onclick="upload_pro()">上传头像</button>--%>
-                            <button type="submit" class="btn">提交</button>
-                            <%--<input type="submit" class="site-btn site-btn-green" value="提交" style="display: block;"/>--%>
-                            <input type="hidden" name="name"/>
-                            <input type="file" name="icon" class="upload-btn-placeholder">
-                        </form>
+                        <%--<form method="post" enctype="multipart/form-data" action="/form.do" style="position: relative; overflow: hidden;">--%>
+                            <a href="#" class="site-btn site-btn-green" style="cursor: default;" onclick="upload_pro()">上传头像 </a>
+                            <%--&lt;%&ndash;<button type="button" onclick="upload_pro()">上传头像</button>&ndash;%&gt;--%>
+                            <%--<button type="submit" class="btn">提交</button>--%>
+                            <%--&lt;%&ndash;<input type="submit" class="site-btn site-btn-green" value="提交" style="display: block;"/>&ndash;%&gt;--%>
+                            <%--<input type="hidden" name="name"/>--%>
+                            <%--<input type="file" name="icon" class="upload-btn-placeholder">--%>
+                        <%--</form>--%>
                         <%--<button type="button" class="btn btn-circle green-haze btn-sm">上传头像</button>--%>
                         <%--<button type="button" class="btn btn-circle btn-danger btn-sm">账户设置</button>--%>
                     </div>
@@ -649,15 +649,18 @@
 
     </div>
 </div>
-
+<div id="user_img" style="width: 740px"></div>
 
 </body>
 </html>
 <script src="../../module/style/jquery/jquery.min.js"></script>
 <script src="../../module/style/bootstrap/bootstrap.min.js"></script>
+<script src="../../module/style/common/slidePanel.js"></script>
 <script>
     //上传头像
     function upload_pro(){
+        slidePanel("user_img","../../module/user/user_head_config.html",{success:function(){
 
+        }})
     }
 </script>

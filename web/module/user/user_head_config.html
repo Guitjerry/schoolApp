@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>用户头像设置</title>
+    <link rel="stylesheet" href="../../module/user/user_head_config.css"/>
+</head>
+<body>
+<div style="background:#699f00; height:40px; overflow:hidden; padding:0 20px;">
+    <span style=" line-height:40px; float:left;color: #fff;">上传头像</span>
+    <a style="font-size:16px; font-family:'微软雅黑'; line-height:40px; color:#FFF; float:right;" href="#"  onclick="closeSlidePanel()">x</a>
+</div>
+
+<div id="NTGUID__c">
+    <div class="privew">
+        <div class="uploader">
+            <div class="status"></div>
+            <div class="file-field">
+                <input class="local-file" type="file" name="upload_file" id="resume_uploader">
+                <a href="javascript:;" class="button">上传照片</a>
+            </div>
+            <p>支持JPG、GIF、PNG格式，图片小于2M</p>
+        </div>
+        <div class="source_box">
+            <div class="photo_cols">
+                <div class="photo photo_source jcrop-default"></div>
+            </div>
+        </div>
+        <div class="result_box">
+            <div class="photo_cols-left">
+                <div class="photo photo_large" style="height: 200px;"></div>
+                <div class="btn-save"><a href="javascript:;" class="button">保存头像</a></div>
+            </div>
+            <div class="photo_cols-right">
+                <div class="photo photo_big" style="height: 100px;"></div>
+                <div class="photo photo_normal" style="height: 75px;"></div>
+                <div class="photo photo_tiny" style="height: 50px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
