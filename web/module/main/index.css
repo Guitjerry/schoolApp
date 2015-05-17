@@ -194,6 +194,33 @@ ol,ul{
     margin-top: 10px;
     padding-bottom: 20px;
 }
+/**上传头像样式**/
+.profile-userbuttons .site-btn{
+    padding: 8px 13px;
+}
+.profile-userbuttons .site-btn-green{
+    background-color: #699f00;
+    color: #fff;
+    text-align: center;
+    width: 124px;
+    height: 38px;
+    line-height: 38px;
+   text-decoration: none;
+
+}
+input.upload-btn-placeholder{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: default;
+    z-index: 2;
+    font-size: 24px;
+    width: 224px;
+    height: 38px;
+}
+
+
 .green-haze.btn{
     color: #ffffff;
     background-color: #44b6ae;
