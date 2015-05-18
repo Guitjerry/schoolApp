@@ -16,6 +16,11 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd
 		<property name="maxUploadSize" value="100000"/>
 		<!--<property name="uploadTempDir" value="upload"></property>-->
 	</bean>
+
+	<!-- 此方式仅仅支持注解 不支持XML,如果要注入到代码中,bean要指定一个ID名称 -->
+	<bean id="public" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="location" value="classpath:public.properties" />
+	</bean>
 	<!--<bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">-->
 		<!--<property name="templateLoaderPath">-->
 			<!--<value>ftl/</value>-->

@@ -4,23 +4,26 @@ import com.sushe.entity.Department;
 import com.sushe.entity.School;
 import com.sushe.entity.User;
 import com.sushe.service.DepartMentService;
+import com.sushe.service.FileUploadUtil;
 import com.sushe.service.SchoolService;
 import com.sushe.service.UserService;
 import com.sushe.util.JsonUtilTemp;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import java.io.IOException;
+import java.util.*;
 
 /**
  * Created by jiangbin on 15/4/13.
@@ -34,7 +37,45 @@ public class UserController {
     private SchoolService schoolService;
     @Resource
     private DepartMentService departMentService;
-    private static Logger logger= LoggerFactory.getLogger(UserController.class);
+    @Resource
+    private FileUploadUtil fileUploadUtil;
+    private String uploadPath; // 上传路径
+    private String downloadPath; // 下载(显示)路径
+    private String uploadPathTemp;// 上传临时路径
+    private String downloadPathTemp; // 下载(显示)临时路径路径
+
+    public String getUploadPathTemp() {
+        return uploadPathTemp;
+    }
+
+    @Value(value = "#{public.annexUserTempPath}")
+    public void setUploadPathTemp(String uploadPathTemp) {
+        this.uploadPathTemp = uploadPathTemp;
+    }
+
+    public String getDownloadPathTemp() {
+        return downloadPathTemp;
+    }
+
+    @Value(value = "#{public.annexUserTempUrl}")
+    public void setDownloadPathTemp(String downloadPathTemp) {
+        this.downloadPathTemp = downloadPathTemp;
+    }
+
+    @Value(value = "#{public.annexUserPath}")
+    public void setUploadPath(String uploadPath) {
+        this.uploadPath = uploadPath;
+    }
+
+    @Value(value = "#{public.annexUserUrl}")
+    public void setDownloadPath(String downloadPath) {
+        this.downloadPath = downloadPath;
+    }
+
+    public String getDownloadPath() {
+        return downloadPath;
+    }
+    //private static Logger logger= LoggerFactory.getLogger(UserController.class);
 
     @SuppressWarnings("finally")
     @RequestMapping(value = "/selectUserById",method = RequestMethod.GET)
@@ -134,6 +175,34 @@ public class UserController {
         } catch (Exception e){
             e.printStackTrace();
             JsonUtilTemp.returnExceptionJson(response, "查询数据失败,接口异常");
+        }
+    }
+
+    /**
+     * 上传头像
+     */
+    @SuppressWarnings("finally")
+    @RequestMapping(value = "/updateSticker")
+    public void updateSticker(@RequestParam("file") MultipartFile file,HttpServletResponse response){
+        if(file.isEmpty()){
+            JsonUtilTemp.returnFailJson(response,"上传文件不能为空");
+        }else{
+            try {
+                byte[] bytes = file.getBytes();
+                String fileName=file.getOriginalFilename();
+                String size= String.valueOf(file.getSize());
+                Map<String,String> map=new HashMap<String, String>();
+                //复制文件到临时目录
+                String newName=fileUploadUtil.SaveFileFromInputStream(file.getInputStream(),uploadPath,fileName);
+                map.put("filename",newName);
+                map.put("size",size);
+                map.put("upload",downloadPath);
+                JsonUtilTemp.returnJson(map,response);
+            } catch (Exception e) {
+                e.printStackTrace();
+                JsonUtilTemp.returnFailJson(response,"上传文件异常");
+            }
+
         }
     }
 

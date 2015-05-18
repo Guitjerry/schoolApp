@@ -1,10 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="schoolApp:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded</output-path>
+    <output-path>D:/Java/Tomcat_7.0.54/webapps/schoolApp</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="schoolApp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-io-2.0" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="schoolApp/web/Web" />

@@ -50,9 +50,15 @@ public class FileUploadUtilImpl implements FileUploadUtil {
 	 * @param filename 文件名称
 	 * @throws java.io.IOException
 	 */
-	public void SaveFileFromInputStream(InputStream stream,String path,String filename) throws IOException
+	public String SaveFileFromInputStream(InputStream stream,String path,String filename) throws IOException
 	{
-		FileOutputStream fs=new FileOutputStream( path + "/"+ filename);
+		File savedir140 = new File(path);
+		// 如果目录不存在就创建
+		if (!savedir140.exists()) {
+			savedir140.mkdirs();
+		}
+		String newName = this.newFileName(filename);
+		FileOutputStream fs=new FileOutputStream( path + "/"+ newName);
 		byte[] buffer =new byte[1024*1024];
 		int bytesum = 0;
 		int byteread = 0;
@@ -64,6 +70,7 @@ public class FileUploadUtilImpl implements FileUploadUtil {
 		}
 		fs.close();
 		stream.close();
+		return newName;
 	}
 
 }
