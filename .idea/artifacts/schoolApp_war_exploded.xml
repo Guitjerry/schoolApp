@@ -8,6 +8,9 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="commons-io-2.0" />
+          <element id="library" level="project" name="spring.RELEASE" />
+          <element id="library" level="project" name="mybatis-3.1.1" />
+          <element id="library" level="project" name="log4j-1.2.15" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="schoolApp/web/Web" />

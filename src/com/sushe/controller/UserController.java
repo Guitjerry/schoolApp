@@ -7,6 +7,7 @@ import com.sushe.service.DepartMentService;
 import com.sushe.service.FileUploadUtil;
 import com.sushe.service.SchoolService;
 import com.sushe.service.UserService;
+import com.sushe.util.ImageCut;
 import com.sushe.util.JsonUtilTemp;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,7 +23,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 /**
@@ -179,11 +180,11 @@ public class UserController {
     }
 
     /**
-     * 上传头像
+     * 上传头像图片
      */
     @SuppressWarnings("finally")
-    @RequestMapping(value = "/updateSticker")
-    public void updateSticker(@RequestParam("file") MultipartFile file,HttpServletResponse response){
+    @RequestMapping(value = "/uploadSticker")
+    public void uploadSticker(@RequestParam("file") MultipartFile file,HttpServletResponse response){
         if(file.isEmpty()){
             JsonUtilTemp.returnFailJson(response,"上传文件不能为空");
         }else{
@@ -205,5 +206,75 @@ public class UserController {
 
         }
     }
+
+    /**
+     * 上传头像
+     * @param file
+     * @param response
+     */
+    @SuppressWarnings("finally")
+    @RequestMapping(value = "/updateUserSticker")
+    public void updateUserSticker(@RequestParam("id") String id,
+                                  @RequestParam("sticker") String sticker,
+                                  @RequestParam("account") String account,
+                                  @RequestParam("x1") String x1,
+                                  @RequestParam("y1") String y1,
+                                  @RequestParam("cw") String cw,
+                                  @RequestParam("ch") String ch,
+                                  HttpServletRequest request,
+                                  HttpServletResponse response){
+            // 将文件复制到指定目录下
+        String oldPath =uploadPath+"/"+sticker;
+        String newFilePath=uploadPath+"/"+account;
+        // 创建文件目录
+        File savedir140 = new File(newFilePath);
+        int bytesum = 0;
+        int byteread = 0;
+        File oldfile = new File(oldPath);
+        // 如果目录不存在就创建
+        if (!savedir140.exists()) {
+            savedir140.mkdirs();
+        }
+        try {
+            if (!x1.equals("") && !("0").equals(x1)) {
+                int intx1 = Integer.parseInt(x1);
+                int inty1 = Integer.parseInt(y1);
+                int intcw = Integer.parseInt(cw);
+                int intch = Integer.parseInt(ch);
+                String dirPath = oldPath;
+                String toPath = newFilePath + "/" + sticker;
+                ImageCut.cut(intx1, inty1, intcw, intch, dirPath, toPath);
+            } else {
+                InputStream inStream = null; // 读入原文件
+                inStream = new FileInputStream(oldPath);
+                FileOutputStream fs = new FileOutputStream(newFilePath + "/" + sticker);
+                byte[] buffer = new byte[1444];
+                while ((byteread = inStream.read(buffer)) != -1) {
+                    bytesum += byteread; // 字节数 文件大小
+                    fs.write(buffer, 0, byteread);
+                }
+                inStream.close();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            JsonUtilTemp.returnFailJson(response,"文件操作异常");
+        }
+
+        //保存头像到用户
+        User user=new User();
+        user.setId(id);
+        user.setSticker(sticker);
+        try{
+            userService.updateSticker(user);
+        }catch (Exception e){
+            e.printStackTrace();
+            JsonUtilTemp.returnFailJson(response,"更新头像接口出错");
+        }
+
+
+    }
+
+
+
 
 }

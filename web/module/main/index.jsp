@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../module/main/index.css"/>
 </head>
-<body>
+<body style="background: #deedf7 ">
 <jsp:include page="/module/style/common/header.jsp"></jsp:include>
 
 <div class="content">
@@ -38,7 +38,7 @@
             <div class="profile-sidebar col-md-3">
                 <div class="portlet light profile-sidebar-portlet">
                     <div class="profile-userpic">
-                        <img src="../../module/main/img/personal.png" class="img-responsive">
+                        <img src="${sessionScope.user.sticker}" class="img-responsive">
                     </div>
                     <div class="profile-usertitle">
 
@@ -653,10 +653,14 @@
 
 </body>
 </html>
-<script src="../../module/style/jquery/jquery.min.js"></script>
-<script src="../../module/style/bootstrap/bootstrap.min.js"></script>
+<script src="../../module/style/rdcp/rdcp.js"></script>
+<%--<script src="../../module/style/jquery/jquery.min.js"></script>--%>
+<%--<script src="../../module/style/bootstrap/bootstrap.min.js"></script>--%>
 <script src="../../module/style/common/slidePanel.js"></script>
 <script>
+    rdcp.ready(function(){
+
+    })
     //上传头像
     function upload_pro(){
         slidePanel("user_img","../../module/user/user_head_config.html",{success:function(){

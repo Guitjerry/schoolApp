@@ -30,6 +30,7 @@ public class User {
     private String isHead;
     private String password;
     private String account;
+    private String sticker;
 
     public String getAccount() {
         return account;
@@ -149,5 +150,13 @@ public class User {
 
     public void setIsHead(String isHead) {
         this.isHead = isHead == null ? null : isHead.trim();
+    }
+
+    public String getSticker() {
+        return sticker;
+    }
+
+    public void setSticker(String sticker) {
+        this.sticker = sticker;
     }
 }

@@ -16,4 +16,9 @@ public interface UserService {
     public int insertSimple(User user);
     public User selectByAccount(String account);
     public User selectByAccountAndPassword(String account,String password);
+
+    /**
+     * 更新头像
+     */
+    public void updateSticker(User user);
 }

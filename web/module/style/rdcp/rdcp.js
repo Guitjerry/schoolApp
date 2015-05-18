@@ -12,7 +12,7 @@ var rdcp = {
     /**
      * baseScriptPath:从WebRoot开始,指定RDCPJS根目录.如:'scripts/RDCPJS/'<br>
      */
-    baseScriptPath: '/module/style/',
+    baseScriptPath: '/schoolApp/module/style/',
 
 
     /**

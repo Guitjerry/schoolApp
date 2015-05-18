@@ -14,6 +14,16 @@
 <body>
 <input type="hidden" value="${sessionScope.user.id}" id="user_id"/>
 <input type="hidden" value="${sessionScope.user.name}" id="user_name"/>
+<input type="hidden" value="${sessionScope.user.account}" id="user_account"/>
+<input type="hidden" value="${sessionScope.user.sticker}" id="user_sticker"/>
+
+
+<%--<c:if test="${sessionScope.user.account} !=null">--%>
+<%--<input type="text" value="${sessionScope.user.sticker}" id="user_sticker"/>--%>
+<%--</c:if>--%>
+<%--<c:if test="${sessionScope.user.account} ==null">--%>
+    <%--<input type="text" value="aaa" id="user_sticker"/>--%>
+<%--</c:if>--%>
 
 <div class="header navbar  navbar-default navbar-fixed-top">
   <div class="header-inner">

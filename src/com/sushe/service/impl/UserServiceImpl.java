@@ -42,4 +42,12 @@ public class UserServiceImpl implements UserService {
         user=userDao.selectByAccountAndPassword(account,password);
         return user;
     }
+
+    /**
+     * 更新头像
+     * @param user
+     */
+    public void updateSticker(User user){
+        userDao.updateByPrimaryKeySelective(user);
+    }
 }
