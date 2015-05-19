@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/lazyload-min.js"></script>
+
+    <style type="text/css">
+    body{padding:100px;}
+    </style>
+
+</head>
+<body>
+    <input type="text" readonly="readonly" placeholder="请输入城市名" id="inputTest" />
+    <script type="text/javascript">
+
+
+        LazyLoad.css(["css/cityStyle.css"], function () {
+            LazyLoad.js(["js/cityScript.js","js/hostelScript.js"], function () {
+                var test = new citySelector.cityInit("inputTest");
+
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/**
+ *
+ * @pang cong  森锐网页端样式，绿色主题
+ * @date    2014-12-23
+ */
+
+/*注意事项*/
+/*
+*/
+
+
+/*文档编写样式Begin*/
+.html_txt{font-size: 12px; margin-top: 5px;}
+.nt{color:#2f6f9f;}
+.na{color: #4f9fcf;}
+.s{color:#d44950;}
+.h{font-weight: 700;}
+.hr{border:0;background-color:#cccccc;height:1px;}
+.clear{ clear: both;}
+/*文档编写样式End*/
+
+/*选择按钮控件有边框Begin*/
+.com_select{display: block; float: left;  margin:0px 5px 5px 0px; position: relative; border:1px solid #cccccc;}
+.com_select_noborder{border:none;}
+.com_select_checked{border:2px solid #ec3f3f;}
+.com_select a{ display: block; float: left;padding: 5px; font-size: 12px; color:#444444; text-decoration: none; position: relative;}
+.com_select a:hover{  color: #ec3f3f;}
+.com_select_noborder a{ display: block; float: left;padding: 6px; font-size: 12px; color:#444444; text-decoration: none; position: relative;}
+.com_select_noborder a:hover{  color: #ec3f3f;}
+.com_select_checked a{ display: block; float: left;padding: 4px; font-size: 12px; color:#444444; text-decoration: none; position: relative;}
+.com_select_checked a:hover{  color: #ec3f3f;}
+.com_select .icon_tick{ background: url(../images/module/select.png);display: block; width: 12px; height: 12px; position: absolute; bottom:0px; right:0px; font-size: 1px; z-index: 100;}
+/*选择按钮有边框控件End*/
+
+/*选中条件样式Begin*/
+.com_select_item{position: relative; float: left; margin: 0px 5px 5px 0px; cursor: pointer;border:1px solid #cccccc;}
+.com_select_item:hover{border:1px solid #ec3f3f;}
+.com_select_item .com_select_item_content{  display: block; float: left; text-decoration:none; font-size: 12px; padding: 4px 24px 4px 5px;color:#444444;*line-height:12px; *padding: 7px 24px 4px 5px; }
+.com_select_item .com_select_item_content:hover{padding: 4px 24px 4px 5px;display: block; color:#ec3f3f;float: left;*padding: 7px 24px 4px 5px;}
+.com_select_item .content{ font-weight: 700; color:#ec3f3f; }
+.com_select_item .icon_delete{background:url(../images/module/deleteMark.png) no-repeat center #ec3f3f; display: block; width: 12px; height: 12px; position:absolute; top:5px; right:5px; cursor: pointer; font-size: 1px;}
+.com_select_item .icon_delete:hover{background:url(../images/module/deleteMark.png) no-repeat center #d62c2c; display: block; width: 12px; height: 12px; position:absolute; top:5px; right:5px; cursor: pointer;font-size: 1px;}
+/*选中条件样式End*/
+
+/*表单容器外框Begin*/
+.box_container{ border:1px solid #dddddd; background: #ffffff;}
+.box_container_title{height: 40px; background: #fbfbfb; border-bottom: 1px solid #dddddd;}
+.box_container_title .txt_h1{color:#1db46e; line-height: 40px; margin-left: 10px; font-size: 14px; font-weight: 700; float: left;}
+.box_container_title .box_btngroup{ float:right; height: 40px;}
+.box_container .box_container_content{border-bottom: 1px solid #dddddd; background: #ffffff;padding:5px; overflow: hidden;}
+.box_container_content .left{width: 100px; float: left;}
+.box_container_content .right{margin-left: 100px;}
+.box_container_content .txt_h2{margin-left: 10px; line-height: 30px; color:#888888; font-weight: 700; font-size: 12px;}
+.box_container_content .content{background: #f8f8f8; margin:0px 5px; overflow: hidden;}
+.title_partition{ height: 30px; line-height: 30px; font-size: 14px; color:#444444; margin:0px 5px; text-indent: 12px; background: url(../images/module/title.png) no-repeat left center; }
+.box_container .noborder{ border:none;}
+.box_btngroup .btn_small{margin-top: 8px;}
+/*表单容器外框End*/
+
+
+/*按钮Begin*/
+.btn_small{ padding: 5px; display: block; float: left; font-size: 12px; text-decoration: none; margin-right: 5px; line-height: 12px;}
+.btn_middle{ padding: 8px 10px; display: block; float: left;  font-size: 14px; text-decoration: none;margin-right: 5px;line-height: 14px;}
+.btn_large{ padding: 12px 20px; display: block; float: left;  font-size: 16px; text-decoration: none;margin-right: 5px;line-height: 16px;}
+
+.btn_normal{ background: #eeeeee; color: #666666; border:1px solid #d8d8d8;}
+.btn_normal:hover{background: #d8d8d8; color: #666666;}
+.btn_default{ background: #49d896; color: #ffffff; border:1px solid #1fcd7c;}
+.btn_default:hover{background: #1fcd7c; color: #ffffff;}
+.btn_primary{ background: #48b5e7; color: #ffffff; border:1px solid #32a8df;}
+.btn_primary:hover{background: #32a8df; color: #ffffff;}
+.btn_waring{ background: #f19b75; color: #ffffff; border:1px solid #f06b2f;}
+.btn_waring:hover{background: #f06b2f; color: #ffffff;}
+.btn_danger{ background: #f09090; color: #ffffff; border:1px solid #e65959;}
+.btn_danger:hover{background: #e65959; color: #ffffff;}
+/*按钮End*/
+
+
+/*表单元素Begin*/
+.form_radio{ font-size: 12px; vertical-align: middle;}
+.form_radio input{ vertical-align:-2px;*vertical-align:-1px;}
+.form_checkbox{ font-size: 12px; vertical-align: middle;}
+.form_checkbox input{ vertical-align:-3px;*vertical-align:-2px;}
+.form_text{font-size: 12px; vertical-align: middle; }
+.form_text input{ vertical-align: middle; border:1px solid #dddddd; padding: 3px;width: 150px;}
+.form_textarea{font-size: 12px; vertical-align: top; }
+.form_textarea textarea{ width: 150px; height: 80px; border:1px solid #dddddd;}
+/*表单元素End*/

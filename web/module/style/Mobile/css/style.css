@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/**
+ *
+ * @pang cong  森锐网页端样式，绿色主题
+ * @date    2014-12-23
+ */
+
+/*注意事项*/
+/*
+*/
+
+/*样式初始化Begin*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px "微软雅黑" "宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+a{color:#444444;text-decoration:none}
+a:hover{color:#ec3f3f;}
+em{font-style:normal}
+li{list-style:none;}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+img:hover{opacity: 0.7; /*Chrome、Safari、Firefox、Opera */ }
+.clear{ clear: both;}
+/*样式初始化End*/
+
+/*文档编写样式Begin*/
+.html_txt{font-size: 12px; margin-top: 5px;}
+.nt{color:#2f6f9f;}
+.na{color: #4f9fcf;}
+.s{color:#d44950;}
+.h{font-weight: 700;}
+.hr{border:0;background-color:#cccccc;height:1px;}
+/*文档编写样式End*/
+
+/*选择按钮控件有边框Begin*/
+.com_select{display: block; float: left;  margin:5px 5px 0px 0px; position: relative; border:1px solid #cccccc;}
+.com_filled{width:100%;}
+.com_filled a{ width: 100%;}
+.com_filled a:hover{ width: 100%;}
+.com_select_noborder{border:none;}
+.com_select_checked{border:1px solid #51b691;}
+.com_select a{ display: block; float: left;padding: 5px; font-size: 12px; color:#444444; text-decoration: none; position: relative;}
+.com_select a:hover{  color: #51b691;}
+.com_select_noborder a{ display: block; float: left;padding: 5px; font-size: 12px; color:#444444; text-decoration: none; position: relative;}
+.com_select_noborder a:hover{  color: #51b691;}
+.com_select_checked a{ display: block; float: left;padding: 5px; font-size: 12px; color:#444444; text-decoration: none; position: relative;}
+.com_select_checked a:hover{  color: #51b691;}
+.com_select .icon_tick{ background: url(../images/module/select.png);display: block; width: 12px; height: 12px; position: absolute; bottom:0px; right:0px; font-size: 1px; z-index: 100;}
+/*选择按钮有边框控件End*/

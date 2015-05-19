@@ -1,0 +1,825 @@
+@charset "UTF-8";
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font: 12px "宋体", "Arial Narrow", HELVETICA;
+    background: #fff;
+    -webkit-text-size-adjust: 100%
+}
+
+a {
+    color: #444;
+    text-decoration: none
+}
+
+a:hover {
+    color: #1db56f
+}
+
+em {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+p {
+    word-wrap: break-word
+}
+
+.clear {
+    clear: both
+}
+
+.pngImg {
+    behavior: url("!ESale/Mall/UI/~/js/iepngfix.htc")
+}
+
+.ES_headerBox {
+    height: 550px;
+    background: url(../images/header.png) #29a164 no-repeat center
+}
+
+.ES_header {
+    height: 100px;
+    width: 960px;
+    position: relative;
+    margin: 0 auto
+}
+
+.ES_logo {
+    width: 386px;
+    height: 57px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    background: url(../images/logo.png) no-repeat center
+}
+
+.ES_nav {
+    width: 360px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 50px
+}
+
+.ES_nav ul li {
+    color: #fff;
+    float: left
+}
+
+.ES_nav ul li a {
+    color: #fff;
+    padding: 5px
+}
+
+.ES_nav ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff
+}
+
+.ES_contact {
+    width: 532px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background: url(../images/contact.png) no-repeat left center
+}
+
+.ES_movie {
+    position: relative
+}
+
+.ES_joinBtn {
+    height: 70px;
+    width: 275px;
+    position: absolute;
+    left: 335px;
+    top: 320px
+}
+
+.ES_joinBtn a {
+    width: 275px;
+    height: 70px;
+    background: #ec3f3f;
+    display: block;
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: .3em;
+    z-index: 1000
+}
+
+@keyframes myfirst {
+    from {
+        background: #ec3f3f
+    }
+    to {
+        background: #235bd9
+    }
+}
+
+@-moz-keyframes myfirst {
+    from {
+        background: #ec3f3f
+    }
+    to {
+        background: #235bd9
+    }
+}
+
+@-webkit-keyframes myfirst {
+    from {
+        background: #ec3f3f
+    }
+    to {
+        background: #235bd9
+    }
+}
+
+@-o-keyframes myfirst {
+    from {
+        background: #ec3f3f
+    }
+    to {
+        background: #235bd9
+    }
+}
+
+.ES_joinBtn a:hover {
+    background: #235bd9;
+    color: #fff;
+    animation: myfirst 1s;
+    -moz-animation: myfirst 1s;
+    -webkit-animation: myfirst 1s;
+    -o-animation: myfirst 1s
+}
+
+.ES_container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.title1 {
+    background: url(../images/title1.png) no-repeat center;
+    height: 120px;
+    line-height: 120px;
+    border-bottom: 1px solid #eee
+}
+
+.title2 {
+    background: url(../images/title2.png) no-repeat center;
+    height: 120px;
+    line-height: 120px;
+    border-bottom: 1px solid #eee
+}
+
+.title3 {
+    background: url(../images/title3.png) no-repeat center;
+    height: 120px;
+    line-height: 120px;
+    border-bottom: 1px solid #eee
+}
+
+.title4 {
+    background: url(../images/title4.png) no-repeat center;
+    height: 120px;
+    line-height: 120px;
+    border-bottom: 1px solid #eee
+}
+
+.ES_container .deeptab {
+    overflow: hidden;
+    position: relative;
+    _height: 1450px
+}
+
+.ES_container .deeptab .deepTabNav {
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 200px
+}
+
+.ES_container .deeptab .deepTabNav ul li {
+    width: 80px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer
+}
+
+.ES_container .deeptab .deepTabNav ul .deeptabActive {
+    background: url(../images/titlenav.png) repeat-x bottom
+}
+
+.ES_container .deeptab .deepContent {
+    overflow: hidden
+}
+
+.ES_container .deeptab .deepContent .deepTabBox {
+    overflow: hidden
+}
+
+.ES_container .deeptab .deepContent .deepTabBox .introduceDetailBox {
+    overflow: hidden
+}
+
+.ES_container .deeptab .deepContent .deepTabBox .introduceLeft {
+    width: 443px;
+    height: 420px;
+    float: left;
+    margin-top: 20px;
+    position: relative
+}
+
+.ES_container .deeptab .deepContent .deepTabBox .introduceRight {
+    width: 443px;
+    height: 420px;
+    float: right;
+    margin-top: 20px;
+    position: relative
+}
+
+.ES_stepBox {
+    overflow: hidden
+}
+
+.ES_txtIntroduce {
+    background: url(../images/easleintroduce.png) no-repeat center;
+    width: 960px;
+    height: 322px;
+    position: relative
+}
+
+.ES_txtIntroduce p {
+    width: 920px;
+    line-height: 34px;
+    text-indent: 30px;
+    font-size: 14px;
+    position: relative;
+    left: 20px;
+    top: 95px
+}
+
+.ES_footer {
+    height: 120px;
+    background: #f5f5f5
+}
+
+.ES_footerNav {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 30px
+}
+
+.ES_footerNav span {
+    padding: 5px;
+    color: #1db56f
+}
+
+.ES_footerNav a {
+    color: #1db56f
+}
+
+.ES_footerNav a:hover {
+    color: #0d834d
+}
+
+.ES_footer p {
+    text-align: center;
+    color: #888;
+    margin-top: 10px
+}
+
+.ES_inputBox {
+    overflow: hidden;
+    padding: 10px
+}
+
+.ES_inputContent {
+    overflow: hidden
+}
+
+.ES_inputBox h2 {
+    color: #1db56f;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px
+}
+
+.ES_inputBox h2 span {
+    color: #aaa;
+    font-size: 16px
+}
+
+.ES_inputBox h2 span a {
+    color: #888;
+    font-size: 16px
+}
+
+.ES_checkBox {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    font-size: 20px;
+    text-indent: 30px;
+    float: left;
+    margin: 10px 10px 0 0;
+    position: relative
+}
+
+.ES_checkBoxNormal {
+    background: url(../images/selectNormal.png) no-repeat left center
+}
+
+.ES_checkBoxPressed {
+    background: url(../images/selectPressed.png) no-repeat left center
+}
+
+.ES_inputList {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    position: relative
+}
+
+.ES_inputList input {
+    width: 450px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #ccc;
+    position: absolute
+}
+
+.ES_upLoad {
+    position: relative;
+    overflow: hidden;
+    height: 30px;
+    width: 260px
+}
+
+.ES_upLoad a {
+    position: absolute;
+    height: 28px;
+    line-height: 28px;
+    width: 50px;
+    text-align: center;
+    color: #666;
+    background: #f5f5f5;
+    display: block;
+    left: 0;
+    top: 0;
+    border: 1px solid #ccc
+}
+
+.ES_upLoad a:hover {
+    color: #fff;
+    background: #28a063;
+    border: 1px solid #28a063
+}
+
+.ES_upLoad span {
+    display: block;
+    border: 1px solid #ccc;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 200px;
+    text-indent: 10px
+}
+
+.ES_radio {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    font-size: 20px;
+    text-indent: 30px;
+    float: left;
+    margin: 10px 10px 0 0;
+    position: relative
+}
+
+.ES_radioNormal {
+    background: url(../images/radioNormal.png) no-repeat left center
+}
+
+.ES_radioPressed {
+    background: url(../images/radioPressed.png) no-repeat left center
+}
+
+.ES_btn {
+    background: #21ab6b;
+    color: #fff
+}
+
+.ES_btn:hover {
+    background: #0d884f;
+    color: #fff
+}
+
+.ES_reset {
+    background: #ccc;
+    color: #fff
+}
+
+.ES_reset:hover {
+    background: #888;
+    color: #fff
+}
+
+.ES_activityTitle {
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    border-bottom: 1px solid #eee
+}
+
+.ES_activityTitle h2 {
+    font-size: 16px;
+    color: #444
+}
+
+.ES_activityTitle label {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.ES_activityList ul li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    width: 300px;
+    text-indent: 20px;
+    background: url(../images/listMark.png) no-repeat 5px 12px
+}
+
+.ES_activityList ul li a {
+    color: #ef6f3c;
+    font-weight: 700
+}
+
+.ES_activityList ul li a:hover {
+    color: #21ab6b;
+    font-weight: 700
+}
+
+.ES_data ul li {
+    height: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+    width: 300px
+}
+
+.ES_textBox p {
+    margin-top: 10px
+}
+
+.ES_textBox h4 {
+    margin-top: 10px
+}
+
+.introduceBox {
+    width: 960px;
+    margin: 20px auto;
+    font-family: "微软雅黑"
+}
+
+.introduceBox .left {
+    width: 180px;
+    float: left
+}
+
+.introduceBox .right {
+    width: 750px;
+    float: right;
+    padding: 0 10px;
+    border-left: 1px solid #eee
+}
+
+.introduceBox .left .introduceLeftNav ul li {
+    font-size: 18px;
+    height: 40px
+}
+
+.introduceBox .left .introduceLeftNav ul li a {
+    display: block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px
+}
+
+.introduceBox .left .introduceLeftNav ul li a:hover {
+    background: url(../images/liMark.png) left center no-repeat;
+    color: #28a063
+}
+
+.introduceBox .left .introduceLeftNav ul li .deeptabActive {
+    background: url(../images/liMark.png) left center no-repeat;
+    color: #28a063
+}
+
+.introduxceContent h2 {
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 60px
+}
+
+.introduxceContent p {
+    font-size: 14px;
+    text-indent: 40px;
+    line-height: 40px
+}
+
+.introduceDetail {
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    bottom: 0;
+    left: 20px
+}
+
+.introduceDetail p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #555;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 10px;
+:
+}
+
+.introduceDetail .introduceDetailBtn {
+    height: 40px;
+    background: #1db56f;
+    color: #fff;
+    display: block;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px
+}
+
+.ES_downloadBox {
+    width: 161px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    top: 50px
+}
+
+.ES_downloadBox h1 {
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 26px
+}
+
+.phone_downLoadBtn {
+    background: url(../images/phone.png) no-repeat top center;
+    height: 50px;
+    width: 161px;
+    display: block;
+    margin-top: 0
+}
+
+.phone_downLoadBtn:hover {
+    background: url(../images/phone.png) no-repeat bottom center;
+    height: 50px;
+    width: 161px;
+    display: block;
+    margin-top: 0
+}
+
+.tabletPC_downLoadBtn {
+    background: url(../images/tablepc.png) no-repeat top center;
+    height: 50px;
+    width: 161px;
+    display: block;
+    margin-top: 20px
+}
+
+.tabletPC_downLoadBtn:hover {
+    background: url(../images/tablepc.png) no-repeat bottom center;
+    height: 50px;
+    width: 161px;
+    display: block;
+    margin-top: 20px
+}
+
+.ES_introduce {
+    margin-top: 30px;
+    overflow: hidden;
+    height: 100px;
+    border-bottom: 1px solid #eee
+}
+
+.ES_introduce p {
+    line-height: 40px;
+    font-size: 16px;
+    text-indent: 100px
+}
+
+.ES_saleBox {
+    overflow: hidden;
+    width: 850px;
+    margin: 0 auto
+}
+
+.ES_saleBox .left {
+    overflow: hidden;
+    float: left;
+    width: 530px
+}
+
+.ES_saleBox .right {
+    overflow: hidden;
+    float: right;
+    width: 300px
+}
+
+.downloadContact p {
+    line-height: 35px;
+    width: 200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
+    text-indent: 30px;
+    font-size: 12px
+}
+
+.ES_probationBox {
+    overflow: hidden;
+    font-size: 14px;
+    margin-top: 20px
+}
+
+.ES_probationInputBox {
+    padding: 5px 0;
+    text-indent: 10px
+}
+
+.ES_label {
+    cursor: pointer;
+    vertical-align: middle
+}
+
+.ES_input {
+    vertical-align: middle;
+    margin: 5px
+}
+
+.ES_span {
+    vertical-align: middle
+}
+
+.ES_title {
+    text-indent: 30px;
+    color: #28a063;
+    font-weight: 700
+}
+
+.ES_warm {
+    color: red
+}
+
+.ES_text {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    width: 300px
+}
+
+.ES_probationBox h2 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-indent: 20px;
+    color: #1db56f;
+    border-top: 1px solid #eee;
+    margin-top: 20px
+}
+
+.ES_testNumber {
+    background: #f5f5f5;
+    overflow: hidden;
+    margin-top: 10px
+}
+
+.ES_testNumber ul li {
+    height: 36px;
+    line-height: 36px;
+    text-indent: 30px
+}
+
+.ES_document {
+    height: 40px;
+    line-height: 40px;
+    text-indent: 30px
+}
+
+.ES_document a {
+    color: #28a063
+}
+
+.ES_document a:hover {
+    border-bottom: 1px solid #28a063
+}
+
+.ES_showTable {
+    border: 1px solid #ccc
+}
+
+.ES_showTable td {
+    border: 1px solid #ccc
+}
+
+.ES_showTable th {
+    border: 1px solid #ccc
+}
+
+.ES_upload {
+    background: #28a063;
+    color: #fff;
+    padding: 5px;
+    line-height: 24px;
+    display: inline-block
+}
+
+.ES_upload:hover {
+    background: #167544;
+    color: #fff;
+    padding: 5px;
+    line-height: 24px;
+    display: inline-block
+}
+
+.ES_step {
+    overflow: hidden;
+    height: 54px;
+    width: 870px;
+    margin: 20px auto 0 auto
+}
+
+.ES_step span {
+    float: left;
+    display: block;
+    line-height: 50px;
+    text-align: center
+}
+
+.ES_stepDetail {
+    height: 50px;
+    width: 100px;
+    border: 1px solid #eee
+}
+
+.ES_stepArrow {
+    height: 50px;
+    width: 50px
+}
+
+.ES_stepNow {
+    background: #28a063;
+    color: #fff;
+    border: 1px solid #28a063;
+    height: 50px;
+    width: 100px
+}

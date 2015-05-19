@@ -8,10 +8,118 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e80b746c-6da5-47b9-8313-5f70038cec46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/user/user_head_config.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sushe/controller/UserController.java" afterPath="$PROJECT_DIR$/src/com/sushe/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/module/main/index.jsp" afterPath="$PROJECT_DIR$/web/module/main/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/module/user/user_head_config.html" afterPath="$PROJECT_DIR$/web/module/user/user_head_config.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/btn/btn_delete_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/btn/btn_delete_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/buttons16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/buttons16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/buttons24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/buttons24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/projecbutton/closeNormal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/projecbutton/closePass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/combinationNormal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/combinationPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/contractNormal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/contractPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/leftnav/controlHide.png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/leftnav/controlShow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/images/module/deleteMark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/MallPortal/images/module/deleteMark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/NetPortal/images/module/deleteMark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/leftnav/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/downLoad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/header_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/icon-add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/icon-minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/btn/icon_bigAdd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/navigation/icon_right_menunormal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/navigation/icon_right_menupressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/icon_top_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/icon_top_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/icon_top_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/icon_top_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/icon_top_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/icon_top_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/icon_top_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/icon_top_4_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/btn/indexSearchBtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/leftnav/line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/leftnav/listBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/logo - 副本.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/mark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/moneyNormal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/common/moneyPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/leftnav/secondNavMarknormal.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/leftnav/secondNavMarkpressed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/images/module/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/MallPortal/images/module/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Mobile/images/module/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/NetPortal/images/module/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Wechat/images/module/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/header/state.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/navigation/swithTip.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/tab/tabtitle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/images/module/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/MallPortal/images/module/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/NetPortal/images/module/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/images/leftnav/up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/welcome/images/welcome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/welcome/images/welcome.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/welcome/images/welcomebg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Wechat/Wechat.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/pages/btn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/MallPortal/pages/btn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/NetPortal/pages/btn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/cityselector/js/cityScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/cityselector/css/cityStyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/cityselector/cityselector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/css/commonbtn.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/pages/containerBox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/MallPortal/pages/containerBox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/NetPortal/pages/containerBox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/cityselector/js/hostelScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/js/iepngfix.htc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/js/iepngfix_tilebg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/inputlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/js/jQuery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/cityselector/js/jQuery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/cityselector/js/lazyload-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/leftnav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/MallPortal/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/NetPortal/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partBtn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partControlbtn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partForm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partHeader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partInputTable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partLeftnav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partModule.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partNavigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partProjectButtom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partSearchTable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/partTableConter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/pages/selectBlock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/MallPortal/pages/selectBlock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Mobile/pages/selectBlock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/NetPortal/pages/selectBlock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Wechat/pages/selectBlock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/MallPortal/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Mobile/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/NetPortal/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Wechat/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/css/sunrise.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/tab.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/top.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/welcome/css/welcome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/welcome/pages/welcome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/module/style/common/header.jsp" afterPath="$PROJECT_DIR$/web/module/style/common/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/module/user/user_config.html" afterPath="$PROJECT_DIR$/web/module/user/user_config.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="schoolApp.iws" />
@@ -38,112 +146,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sushe/controller/UserController.java">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/module/style/Admin/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4614" max-vertical-offset="5510">
-              <caret line="285" column="44" selection-start-line="285" selection-start-column="44" selection-end-line="285" selection-end-column="44" />
+            <state vertical-scroll-proportion="-3.8" vertical-offset="114" max-vertical-offset="1786">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cityselector.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/module/style/cityselector/cityselector.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="627">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cityScript.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/module/style/cityselector/js/cityScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.033334" vertical-offset="855" max-vertical-offset="2527">
+              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1432026134945" expanded="true" signature="3630:3665" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/module/main/index.html">
+      <file leaf-file-name="hostelScript.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/module/style/cityselector/js/hostelScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.107143" vertical-offset="627" max-vertical-offset="12217">
-              <caret line="301" column="90" selection-start-line="301" selection-start-column="90" selection-end-line="301" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.7016248" vertical-offset="0" max-vertical-offset="2945">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#0#49#0" expanded="false" />
+                <marker date="1432026398087" expanded="true" signature="2265:2300" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sushe/service/UserService.java">
+      <file leaf-file-name="cityStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/module/style/cityselector/css/cityStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="41" />
+            <state vertical-scroll-proportion="-13.933333" vertical-offset="0" max-vertical-offset="532">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sushe/entity/User.java">
+      <file leaf-file-name="user_config.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/module/user/user_config.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1384" max-vertical-offset="1995">
-              <caret line="154" column="32" selection-start-line="154" selection-start-column="32" selection-end-line="154" selection-end-column="32" />
-              <folding>
-                <element signature="e#3070#3071#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/module/style/common/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="143.17857" vertical-offset="4275" max-vertical-offset="5073">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state vertical-scroll-proportion="-195.42857" vertical-offset="570" max-vertical-offset="6384">
+              <caret line="318" column="11" selection-start-line="318" selection-start-column="11" selection-end-line="318" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_head_config.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/module/user/user_head_config.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4025501" vertical-offset="3503" max-vertical-offset="4085">
-              <caret line="196" column="38" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rdcp.util.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/module/style/rdcp/rdcp.util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rdcp.string.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/module/style/rdcp/rdcp.string.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="1539">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/module/main/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.9310346" vertical-offset="12291" max-vertical-offset="12844">
-              <caret line="665" column="69" selection-start-line="665" selection-start-column="69" selection-end-line="665" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_head_config.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/module/user/user_head_config.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.464286" vertical-offset="2529" max-vertical-offset="3154">
-              <caret line="194" column="42" selection-start-line="194" selection-start-column="42" selection-end-line="194" selection-end-column="42" />
-              <folding>
-                <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -156,14 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/module/style/toastr/toastr.css" />
-        <option value="$PROJECT_DIR$/web/module/style/toastr/toastr.js" />
-        <option value="$PROJECT_DIR$/src/com/sushe/entity/ActionParam.java" />
-        <option value="$PROJECT_DIR$/src/com/sushe/util/StringUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/sushe/util/PropertiesUtil.java" />
-        <option value="$PROJECT_DIR$/out/artifacts/schoolApp_war_exploded/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/module.properties" />
-        <option value="$PROJECT_DIR$/src/com/sushe/filter/ActionFilter.java" />
         <option value="$PROJECT_DIR$/src/com/sushe/util/JsonUtilTemp.java" />
         <option value="$PROJECT_DIR$/src/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/log4j.properties" />
@@ -188,7 +243,6 @@
         <option value="$PROJECT_DIR$/web/module/user/user_config.css" />
         <option value="$PROJECT_DIR$/web/module/style/common/tab.html" />
         <option value="$PROJECT_DIR$/web/module/style/common/common.css" />
-        <option value="$PROJECT_DIR$/web/module/user/user_config.html" />
         <option value="$PROJECT_DIR$/src/spring.xml" />
         <option value="$PROJECT_DIR$/src/public.properties" />
         <option value="$PROJECT_DIR$/src/com/sushe/controller/FileController.java" />
@@ -202,11 +256,20 @@
         <option value="$PROJECT_DIR$/src/com/sushe/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/com/sushe/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/sushe/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/web/module/style/common/header.jsp" />
         <option value="$PROJECT_DIR$/web/module/user/user_head_config.html" />
         <option value="$PROJECT_DIR$/web/module/main/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/sushe/controller/UserController.java" />
         <option value="$PROJECT_DIR$/web/module/user/user_head_config.jsp" />
+        <option value="$PROJECT_DIR$/web/module/style/common/header.jsp" />
+        <option value="$PROJECT_DIR$/web/module/style/cityselector/js/lazyload-min.js" />
+        <option value="$PROJECT_DIR$/web/module/style/cityselector/css/cityStyle.css" />
+        <option value="$PROJECT_DIR$/web/module/style/cityselector/js/hostelScript_gd.js" />
+        <option value="$PROJECT_DIR$/web/module/style/cityselector/js/hostelScript_bj.js" />
+        <option value="$PROJECT_DIR$/web/module/style/cityselector/cityselector.html" />
+        <option value="$PROJECT_DIR$/web/module/style/cityselector/js/hostelScript_zs.js" />
+        <option value="$PROJECT_DIR$/web/module/style/cityselector/js/cityScript.js" />
+        <option value="$PROJECT_DIR$/web/module/user/user_config.html" />
+        <option value="$PROJECT_DIR$/web/module/style/cityselector/js/hostelScript.js" />
       </list>
     </option>
   </component>
@@ -276,8 +339,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -416,7 +477,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rdcp" />
+              <option name="myItemId" value="cityselector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schoolApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schoolApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cityselector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schoolApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schoolApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cityselector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,6 +593,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -495,13 +618,13 @@
     <property name="LayoutCode.rearrangeEntriesJSP" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="255" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="258" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="262" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="265" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="261" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="265" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1055" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1058" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="258" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
@@ -527,14 +650,15 @@
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="schoolapp" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript 1.5" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\schoolApp\web\module\style" />
       <recent name="C:\Users\Administrator\Desktop\schoolApp\web\module\style\rdcp" />
       <recent name="C:\Users\Administrator\Desktop\schoolApp\web\module\style\jquery" />
       <recent name="C:\Users\Administrator\Desktop\schoolApp\web\WEB-INF\lib" />
       <recent name="$PROJECT_DIR$/src/com/sushe/service" />
-      <recent name="$PROJECT_DIR$/web/module/style/common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/module/style" />
@@ -908,7 +1032,8 @@
       <workItem from="1431918768987" duration="3623000" />
       <workItem from="1431926844255" duration="1496000" />
       <workItem from="1431928486354" duration="13859000" />
-      <workItem from="1431995727296" duration="5226000" />
+      <workItem from="1431995727296" duration="11343000" />
+      <workItem from="1432013690618" duration="12791000" />
     </task>
     <task id="LOCAL-00001" summary="项目框架搭建">
       <created>1431567412486</created>
@@ -1018,11 +1143,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431942519105</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="上传头像功能更新">
+      <created>1432001321585</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1432001321585</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119130000" />
+    <option name="totallyTimeSpent" value="138038000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1062,24 +1193,24 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22918919" sideWeight="0.76332796" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16414687" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34486488" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.072432436" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19027027" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26385927" sideWeight="0.8341385" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2595949" sideWeight="0.16425121" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24432433" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34486488" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1110,7 +1241,8 @@
     <MESSAGE value="个人设置头像页面抽取,增加滑出框样式效果" />
     <MESSAGE value="tab选择页面编写" />
     <MESSAGE value="上传头像与上传文件接口，头像裁剪" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传头像与上传文件接口，头像裁剪" />
+    <MESSAGE value="上传头像功能更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传头像功能更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1123,143 +1255,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/style/common/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
-          <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/user/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.111111" vertical-offset="0" max-vertical-offset="1935">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/style/common/slidePanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/user/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="876" max-vertical-offset="1335">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/user/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.019337" vertical-offset="0" max-vertical-offset="1560">
-          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/style/common/title.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="270">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/style/common/tab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="390">
-          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/style/common/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sushe/service/impl/DepartMentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28235295" vertical-offset="0" max-vertical-offset="425">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31914893" vertical-offset="0" max-vertical-offset="435">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2" vertical-offset="420" max-vertical-offset="11550">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/user/user_config.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2869" max-vertical-offset="3382">
-          <caret line="151" column="18" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.32" vertical-offset="10" max-vertical-offset="893">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/style/common/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="361">
-          <caret line="244" column="53" selection-start-line="244" selection-start-column="53" selection-end-line="244" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms2.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43810847" vertical-offset="5252" max-vertical-offset="15884">
@@ -1365,6 +1360,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1140">
           <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,11 +1375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1558">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1391,10 +1382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="316" max-vertical-offset="893">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1402,16 +1389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3306" max-vertical-offset="4484">
           <caret line="178" column="32" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
-          <folding>
-            <marker date="1431942013510" expanded="true" signature="-1:-1" placeholder="select from ..user..." />
-            <marker date="1431942013510" expanded="true" signature="-1:-1" placeholder="select from ..user..." />
-            <marker date="1431942013510" expanded="true" signature="-1:-1" placeholder="SELECT FROM ..USER..." />
-            <marker date="1431942013510" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1431942013510" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1431942013510" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1431942013510" expanded="true" signature="-1:-1" placeholder="update user ..." />
-            <marker date="1431942013510" expanded="true" signature="-1:-1" placeholder="update user ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1419,9 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
           <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1429,17 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1273">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/main/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.5" vertical-offset="2961" max-vertical-offset="8550">
-          <caret line="174" column="1" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,9 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="2033">
           <caret line="154" column="32" selection-start-line="154" selection-start-column="32" selection-end-line="154" selection-end-column="32" />
-          <folding>
-            <element signature="e#3070#3071#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1457,44 +1417,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/style/common/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="143.17857" vertical-offset="4275" max-vertical-offset="5073">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/module/main/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.107143" vertical-offset="627" max-vertical-offset="12217">
+        <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="12217">
           <caret line="301" column="90" selection-start-line="301" selection-start-column="90" selection-end-line="301" selection-end-column="90" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/main/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9310346" vertical-offset="12291" max-vertical-offset="12844">
-          <caret line="665" column="69" selection-start-line="665" selection-start-column="69" selection-end-line="665" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/module/user/user_head_config.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.464286" vertical-offset="2529" max-vertical-offset="3154">
-          <caret line="194" column="42" selection-start-line="194" selection-start-column="42" selection-end-line="194" selection-end-column="42" />
-          <folding>
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1520,16 +1451,198 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="4614" max-vertical-offset="5510">
           <caret line="285" column="44" selection-start-line="285" selection-start-column="44" selection-end-line="285" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="false" />
+            <element signature="e#1642#1643#0" expanded="false" />
+            <element signature="e#1752#1753#0" expanded="false" />
+            <element signature="e#1804#1805#0" expanded="false" />
+            <element signature="e#1847#1848#0" expanded="false" />
+            <element signature="e#1886#1887#0" expanded="false" />
+            <element signature="e#1999#2000#0" expanded="false" />
+            <element signature="e#2055#2056#0" expanded="false" />
+            <element signature="e#2153#2154#0" expanded="false" />
+            <element signature="e#2197#2198#0" expanded="false" />
+            <element signature="e#2298#2299#0" expanded="false" />
+            <element signature="e#2346#2347#0" expanded="false" />
+            <element signature="e#2385#2386#0" expanded="false" />
+            <element signature="e#2420#2421#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/main/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2961" max-vertical-offset="8550">
+          <caret line="166" column="21" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/module/user/user_head_config.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4025501" vertical-offset="3503" max-vertical-offset="4085">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3724" max-vertical-offset="4085">
           <caret line="196" column="38" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/main/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="12844">
+          <caret line="40" column="120" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/user/user_head_config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2166" max-vertical-offset="3154">
+          <caret line="194" column="42" selection-start-line="194" selection-start-column="42" selection-end-line="194" selection-end-column="42" />
+          <folding>
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/Wechat/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/NetPortal/pages/btn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/Admin/pages/containerBox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21965317" vertical-offset="0" max-vertical-offset="7125">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.321428" vertical-offset="3886" max-vertical-offset="5073">
+          <caret line="233" column="129" selection-start-line="233" selection-start-column="129" selection-end-line="233" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="3591">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13728324" vertical-offset="0" max-vertical-offset="692">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/Admin/oldAdminStyle/brisk_green/pages/inputlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.75" vertical-offset="228" max-vertical-offset="3059">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/common/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/Admin/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4405797" vertical-offset="0" max-vertical-offset="6460">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/cityselector/js/jQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10749646" vertical-offset="0" max-vertical-offset="707">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/cityselector/js/lazyload-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18472221" vertical-offset="0" max-vertical-offset="1862">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/Admin/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8" vertical-offset="114" max-vertical-offset="1786">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/cityselector/css/cityStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.933333" vertical-offset="0" max-vertical-offset="532">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/cityselector/js/cityScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.033334" vertical-offset="855" max-vertical-offset="2527">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <marker date="1432026134945" expanded="true" signature="3630:3665" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/user/user_config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-195.42857" vertical-offset="570" max-vertical-offset="6384">
+          <caret line="318" column="11" selection-start-line="318" selection-start-column="11" selection-end-line="318" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/cityselector/cityselector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="627">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/module/style/cityselector/js/hostelScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7016248" vertical-offset="0" max-vertical-offset="2945">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+            <marker date="1432026398087" expanded="true" signature="2265:2300" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

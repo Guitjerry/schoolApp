@@ -231,7 +231,7 @@
 
       <li class="dropdown dropdown-user">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
-          <img alt class="img-circle" src="../../module/main/img/profile_user.jpg" style="width:36px">
+          <img alt class="img-circle" src="${sessionScope.downloadPath}/${sessionScope.user.account}/${sessionScope.user.sticker}" style="width:36px">
                         <span class="username username-hide-on-mobile">
                             Nick
                         </span>
@@ -239,7 +239,7 @@
         </a>
         <ul class="dropdown-menu dropdown-menu-default">
           <li>
-            <a href="../../../module/user/user_config.html">
+            <a href="../../module/user/user_config.html">
               <i class="glyphicon glyphicon-user"></i>
               个人设置
             </a>
