@@ -7,19 +7,19 @@ hostelSelector.zs=new Array();
 
 
 
-hostelSelector.pc[0] = new Array("东校区", "8栋|9栋|10栋");
-hostelSelector.pc[1] = new Array("西校区", "12栋|13栋|15栋");
-hostelSelector.pc[2] = new Array("南校区", "20栋|21栋|22栋");
-hostelSelector.pc[3] = new Array("北校区", "33栋|34栋|35栋");
+hostelSelector.pc[0] = new Array("东校区", "东校区8栋|东校区9栋|东校区10栋");
+hostelSelector.pc[1] = new Array("西校区", "西校区12栋|西校区13栋|西校区15栋");
+hostelSelector.pc[2] = new Array("南校区", "南校区20栋|南校区21栋|南校区22栋");
+hostelSelector.pc[3] = new Array("北校区", "北校区33栋|北校区34栋|北校区35栋");
 
 
-hostelSelector.zs[0] = new Array("中山东校区", "18栋|19栋|10栋");
-hostelSelector.zs[1] = new Array("中山西校区", "12栋|13栋|15栋");
-hostelSelector.zs[2] = new Array("中山南校区", "20栋|21栋|22栋");
-hostelSelector.zs[3] = new Array("中山北校区", "33栋|34栋|35栋");
+hostelSelector.zs[0] = new Array("中山东校区", "东校区18栋|东校区19栋|东校区10栋");
+hostelSelector.zs[1] = new Array("中山西校区", "西校区12栋|西校区13栋|西校区15栋");
+hostelSelector.zs[2] = new Array("中山南校区", "南校区20栋|南校区21栋|南校区22栋");
+hostelSelector.zs[3] = new Array("中山北校区", "北校区33栋|北校区34栋|北校区35栋");
 
-hostelSelector.pc.hotCity = ["12栋"];
-hostelSelector.zs.hotCity = ["13栋"];
+hostelSelector.pc.hotCity = ["西校区12栋"];
+hostelSelector.zs.hotCity = ["北校区33栋"];
 hostelSelector.cityInit = function (input) {
     $("#" + input).click(function () {
         var locationParam=$("#school").val();
