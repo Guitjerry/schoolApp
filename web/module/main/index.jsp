@@ -38,7 +38,7 @@
             <div class="profile-sidebar col-md-3">
                 <div class="portlet light profile-sidebar-portlet">
                     <div class="profile-userpic">
-                        <img src="${sessionScope.user.sticker}" class="img-responsive">
+                        <img src="${sessionScope.downloadPath}/${sessionScope.user.account}/${sessionScope.user.sticker}" class="img-responsive">
                     </div>
                     <div class="profile-usertitle">
 
@@ -663,7 +663,7 @@
     })
     //上传头像
     function upload_pro(){
-        slidePanel("user_img","../../module/user/user_head_config.html",{success:function(){
+        slidePanel("user_img","../../module/user/user_head_config.jsp",{success:function(){
 
         }})
     }

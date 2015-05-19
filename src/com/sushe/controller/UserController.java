@@ -164,7 +164,9 @@ public class UserController {
                 loginUser=userService.selectByAccountAndPassword(user.getAccount(), user.getPassword());
                 if(loginUser!=null){
                     request.getSession().setAttribute("user",loginUser);
+                    request.getSession().setAttribute("downloadPath",downloadPath);
                     JsonUtilTemp.returnSucessJson(response, "登录系统成功");
+
                     //return new ModelAndView("module/main/index","user",user);
 
                 }else{
@@ -208,8 +210,15 @@ public class UserController {
     }
 
     /**
-     * 上传头像
-     * @param file
+     * 上传裁剪头像
+     * @param id
+     * @param sticker
+     * @param account
+     * @param x1
+     * @param y1
+     * @param cw
+     * @param ch
+     * @param request
      * @param response
      */
     @SuppressWarnings("finally")
@@ -264,7 +273,16 @@ public class UserController {
         User user=new User();
         user.setId(id);
         user.setSticker(sticker);
+
+
         try{
+            //更新session的user
+            HashMap<String,Object> obj=new HashMap<>();
+            User tmpUser=(User)request.getSession().getAttribute("user");
+            tmpUser.setSticker(sticker);
+            obj.put("user",tmpUser);
+            obj.put("status","success");
+            JsonUtilTemp.returnJson(obj,response);
             userService.updateSticker(user);
         }catch (Exception e){
             e.printStackTrace();

@@ -184,16 +184,21 @@
         }else{
             $.ajax({ type: "POST",
                 url: "../../user/updateUserSticker.do",
-                data:{"id":$("#user_id").val(),"sticker":$('.source_box .photo_cols .photo_source img').attr("filePath"),"account":$("#user_account").val()
+                ata:{"id":$("#user_id").val(),"sticker":$('.source_box .photo_cols .photo_source img').attr("filePath"),"account":$("#user_account").val()
                     ,"x1":$("#x1").val(),"y1":$("#y1").val(),"cw":$("#cw").val(),"ch":$("#ch").val()},
                 async: false ,
                 success: function(data){
-//                    if(data.status="SUCCESS"){
-//                        alertDiv("更新头像成功");
-//                        location.reload(true);
-//                    }
+                    alert(data);
+                    var obj=rdcp.serializeObject(data);
+                    if(obj.status=="success"){
+                        rdcp.toastrSuccessMessage("更新头像成功");
+                        closeSlidePanel();
+                        location.reload();
+                    }
+
                 }
             });
+
         }
     }
 </script>
