@@ -28,5 +28,6 @@
     <orderEntry type="library" name="mybatis-3.1.1" level="project" />
     <orderEntry type="library" name="mysql-connector" level="project" />
     <orderEntry type="library" name="log4j-1.2.15" level="project" />
+    <orderEntry type="library" name="junit-4.8.2" level="project" />
   </component>
 </module>

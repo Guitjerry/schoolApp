@@ -3,6 +3,8 @@ package com.sushe.dao;
 import com.sushe.entity.Hostel;
 import com.sushe.entity.Hostel;
 
+import java.util.Map;
+
 public interface hostelMapper {
     int deleteByPrimaryKey(String id);
 
@@ -16,5 +18,5 @@ public interface hostelMapper {
 
     int updateByPrimaryKey(Hostel record);
 
-    Hostel selectHostelByBuildAndSchool(String name,String school_id);
+    Hostel selectHostelByBuildAndSchool(Map<String,Object> map);
 }
