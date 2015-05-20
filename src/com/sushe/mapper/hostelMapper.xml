@@ -28,7 +28,7 @@
   <resultMap id="HostelResultMap" type="com.sushe.entity.HostelBuild">
       <id property="id" column="id"></id>
       <result property="name" column="name"></result>
-      <collection property="hostels" ofType="com.sushe.entity.hostel">
+      <collection property="hostels" ofType="com.sushe.entity.Hostel">
           <id property="id" column="id"></id>
           <result property="name" column="name"></result>
       </collection>
