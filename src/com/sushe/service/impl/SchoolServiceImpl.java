@@ -29,4 +29,9 @@ public class SchoolServiceImpl implements SchoolService {
 
         return schoolMapper.selectAll();
     }
+
+    @Override
+    public School selectByName(String name) {
+        return schoolMapper.selectByName(name);
+    }
 }

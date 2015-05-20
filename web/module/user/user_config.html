@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-<!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link rel="stylesheet" href="../../module/style/common/common.css">
+<link rel="stylesheet" href="user_config.css">
 <!--<link rel="stylesheet" href="../../module/style/bootstrap/bootstrap.min.css">-->
 <head lang="en">
     <meta charset="UTF-8">
@@ -234,7 +235,18 @@
                                                class="SR_pureInput">
                                     </td>
                                 </tr>
+                                <tr style="height: 10px">
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <button type="submit" class="btn btn-primary">确定</button>
+                                    </td>
+                                </tr>
+
                             </table>
+
                         </div>
                     </div>
                 </div>
@@ -304,11 +316,14 @@
 <script src="../../module/style/cityselector/js/lazyload-min.js"></script>
 <script>
     rdcp.ready(function(){
+
         $(".profile-wrap .profile-main .profile-tab a").bind("click",function(){
             $(this).parent(".profile-tab").children("a").removeClass("active");
-            $(this).addClass("active")
+            $(this).addClass("active");
         })
         $(".profile-wrap .profile-main .profile-tab a").eq(0).click();
+//        $("#tab_content .content").hide();
+//        $("#tab_content .content").eq(0).show();
 
         LazyLoad.css(["../../module/style/cityselector/css/cityStyle.css"], function () {
             LazyLoad.js(["../../module/style/cityselector/js/cityScript.js",'../../module/style/cityselector/js/hostelScript.js'], function () {

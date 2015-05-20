@@ -13,5 +13,5 @@ public interface SchoolService {
      * @return
      */
     public List<School> selectAll();
-
+    public School selectByName(String name);
 }

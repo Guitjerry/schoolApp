@@ -239,7 +239,7 @@
         </a>
         <ul class="dropdown-menu dropdown-menu-default">
           <li>
-            <a href="../../module/user/user_config.html">
+            <a href="../../module/user/user_config.jsp">
               <i class="glyphicon glyphicon-user"></i>
               个人设置
             </a>

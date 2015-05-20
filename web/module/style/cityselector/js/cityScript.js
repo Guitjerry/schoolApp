@@ -35,12 +35,14 @@ schoolSelector.pc = new Array();
 //schoolSelector.pc[30] = new Array("新疆", "乌鲁木齐|克拉玛依");
 //schoolSelector.pc[31] = new Array("其它", "澳门|香港|台湾");
 
-schoolSelector.pc[0] = new Array("北京", "北京大学|国防科技大学");
-schoolSelector.pc[1] = new Array("上海", "上海大学");
-schoolSelector.pc[2] = new Array("天津", "天津大学");
-schoolSelector.pc[3] = new Array("重庆", "重庆大学");
-schoolSelector.pc[4] = new Array("河北", "石家庄大学");
-schoolSelector.pc[5] = new Array("广东", "中山大学|华南理工");
+//数组序列号+1对应数据库学校id
+schoolSelector.pc[0] = new Array("广东", "中山大学|华南理工");
+schoolSelector.pc[1] = new Array("北京", "北京大学|国防科技大学");
+schoolSelector.pc[2] = new Array("上海", "上海大学");
+schoolSelector.pc[3] = new Array("天津", "天津大学");
+schoolSelector.pc[4] = new Array("重庆", "重庆大学");
+schoolSelector.pc[5] = new Array("河北", "石家庄大学");
+
 schoolSelector.hotCity = ["北京大学", "上海大学", "中山大学"];
 
 
@@ -59,7 +61,7 @@ for (var i = 0; i < schoolSelector.hotCity.length; i++) {
 
 schoolSelector.template = '<div class="city-box" id="js_cityBox"><div class="prov-city" id="js_provCity"><p>热门城市<span style="padding-left: 300px;cursor: pointer" onclick="hideDiv()">x</span></p><ul>' + schoolSelector.hotCityhtmls + '</ul></div><div class="provence"><div>选择省份</div><div><ul id="js_provList">' + schoolSelector.provHtmls + '</ul></div></div></div>';
 
-schoolSelector.cityInit = function (input) {
+schoolSelector.Init = function (input) {
 
     $("#" + input).click(function () {
         //清空宿舍盘号

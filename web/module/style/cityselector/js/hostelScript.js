@@ -20,7 +20,7 @@ hostelSelector.zs[3] = new Array("中山北校区", "北校区33栋|北校区34�
 
 hostelSelector.pc.hotCity = ["西校区12栋"];
 hostelSelector.zs.hotCity = ["北校区33栋"];
-hostelSelector.cityInit = function (input) {
+hostelSelector.Init = function (input) {
     $("#" + input).click(function () {
         var locationParam=$("#school").val();
         if(locationParam==""){

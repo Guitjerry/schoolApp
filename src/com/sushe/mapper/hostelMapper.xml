@@ -20,6 +20,21 @@
     from hostel
     where id = #{id,jdbcType=VARCHAR}
   </select>
+
+  <!--根据学校与楼盘号查询相应的宿舍-->
+  <select id="selectHostelByBuildAndSchool" resultMap="HostelResultMap">
+      select s.* from hostel s left join hostel_build b on s.build_id=b.id where b.name=#{name,jdbcType=VARCHAR} and b.school_id=#{school_id,jdbcType=VARCHAR}
+  </select>
+  <resultMap id="HostelResultMap" type="com.sushe.entity.HostelBuild">
+      <id property="id" column="id"></id>
+      <result property="name" column="name"></result>
+      <collection property="hostels" ofType="com.sushe.entity.hostel">
+          <id property="id" column="id"></id>
+          <result property="name" column="name"></result>
+      </collection>
+  </resultMap>
+
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
     delete from hostel
     where id = #{id,jdbcType=VARCHAR}

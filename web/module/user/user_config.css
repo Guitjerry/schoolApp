@@ -1,0 +1,129 @@
+
+body{
+    margin: 0;
+    background: #f0f0f0;
+    font-size: 12px;
+
+}
+.profile-wrap{
+    width: 800px;
+    margin: 0 auto;
+
+}
+.profile-title{
+    font-size: 20px;
+}
+.profile-wrap .profile-main{
+    border: 1px solid #e6e6e6;
+    padding: 30px;
+    background: #fff;
+}
+.profile-wrap .profile-main .profile-tab{
+    margin-bottom: 20px;
+}
+.profile-wrap .profile-main .profile-tab a{
+    background: #f5f5f5;
+    color: #333;
+    border-radius: 2px;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.profile-wrap .profile-main .profile-tab a.active{
+    background: #45ace0;
+    color: #fff;
+    font-weight: 700;
+}
+
+.profile-wrap .profile-main .profile-tab a.active::after{
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 55px;
+    display: inline-block;
+    border-width: 5px;
+    border-style: solid dashed dashed;
+    border-color: #45ace0 transparent transparent
+}
+/*给Tab Content容器设置高度*/
+#tab_content{
+    height: 290px;
+    overflow: hidden;
+}
+/*给每个Tab Content定高度，需要与容器保持一致*/
+#tab_content .content{
+    padding: 5px;
+    -moz-border-radius: 5px;
+    height: 290px;
+    overflow: hidden;
+}
+
+/*账号隐私内容*/
+.combine_secrt .show-main{
+    background: #fafafa;
+    border: 1px #e6e6e6;
+    padding: 14px 18px;
+}
+.combine_secrt .show-main p{
+    float: left;
+    overflow: hidden;
+}
+.combine_secrt .show-main p.show-title{
+    font-weight: bold;
+    width: 230px;
+
+}
+.combine_secrt .show-main p.show-value{
+    width: 260px;
+    color: #45ace0;
+}
+.combine_secrt .show-main p.tool-main{
+    float: right;
+
+}
+.combine_secrt .show-main p.tool-main a{
+    color:#0077b3; ;
+    text-decoration: none;
+}
+
+.combine_secrt .tpl-main{
+    margin-top: 10px;
+    border: 1px solid #3d9ccc;
+    border-top-width: 2px;
+    padding: 15px 18px;
+    display: none;
+}
+.combine_secrt .tpl-main h3.title{
+    margin: 0px 0px -18px 18px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    font-weight: bold;
+    font-weight: 700;
+}
+.combine_secrt .tpl-main .edit-right{
+    padding-left: 215px;
+}
+.combine_secrt .tpl-main .edit-right ul li{
+    margin-bottom: 15px;
+}
+ol, ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+label{
+    display: inline-block;
+    vertical-align: middle;
+}
+.combine_secrt .tpl-main .edit-right input{
+    line-height: 20px;
+    vertical-align: middle;
+}

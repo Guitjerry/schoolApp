@@ -1,17 +1,20 @@
 package com.sushe.dao;
 
-import com.sushe.entity.hostel;
+import com.sushe.entity.Hostel;
+import com.sushe.entity.Hostel;
 
 public interface hostelMapper {
     int deleteByPrimaryKey(String id);
 
-    int insert(hostel record);
+    int insert(Hostel record);
 
-    int insertSelective(hostel record);
+    int insertSelective(Hostel record);
 
-    hostel selectByPrimaryKey(String id);
+    Hostel selectByPrimaryKey(String id);
 
-    int updateByPrimaryKeySelective(hostel record);
+    int updateByPrimaryKeySelective(Hostel record);
 
-    int updateByPrimaryKey(hostel record);
+    int updateByPrimaryKey(Hostel record);
+
+    Hostel selectHostelByBuildAndSchool(String name,String school_id);
 }
