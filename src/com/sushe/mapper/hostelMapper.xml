@@ -23,14 +23,18 @@
 
   <!--根据学校与楼盘号查询相应的宿舍-->
   <select id="selectHostelByBuildAndSchool" resultMap="HostelResultMap" resultType="map">
-      select * from hostel s left join hostel_build b on s.build_id=b.id where b.name=#{name,jdbcType=VARCHAR} and b.school_id=#{school_id,jdbcType=VARCHAR}
+      select * from hostel as s left join hostel_build b on s.build_id=b.id where b.name=#{name,jdbcType=VARCHAR} and b.school_id=#{school_id,jdbcType=VARCHAR}
   </select>
   <resultMap id="HostelResultMap" type="com.sushe.entity.HostelBuild">
-      <id property="id" column="id"></id>
+      <id property="b_id" column="id"></id>
       <result property="name" column="name"></result>
+      <result property="pro_number" column="pro_number"></result>
       <collection property="hostels" ofType="com.sushe.entity.Hostel">
-          <id property="id" column="id"></id>
+          <id property="s_id" column="id"></id>
           <result property="name" column="name"></result>
+          <result property="code" column="name"></result>
+          <result property="status" column="name"></result>
+          <result property="size" column="name"></result>
       </collection>
   </resultMap>
 

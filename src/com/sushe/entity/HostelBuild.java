@@ -1,7 +1,9 @@
 package com.sushe.entity;
 
+import java.util.List;
+
 public class HostelBuild {
-    private String id;
+    private String b_id;
 
     private String schoolId;
 
@@ -20,13 +22,14 @@ public class HostelBuild {
     private String note;
 
     private String userId;
+    private List<Hostel> hostels;
 
     public String getId() {
-        return id;
+        return b_id;
     }
 
     public void setId(String id) {
-        this.id = id == null ? null : id.trim();
+        this.b_id = id == null ? null : id.trim();
     }
 
     public String getSchoolId() {
@@ -99,5 +102,13 @@ public class HostelBuild {
 
     public void setUserId(String userId) {
         this.userId = userId == null ? null : userId.trim();
+    }
+
+    public List<Hostel> getHostels() {
+        return hostels;
+    }
+
+    public void setHostels(List<Hostel> hostels) {
+        this.hostels = hostels;
     }
 }

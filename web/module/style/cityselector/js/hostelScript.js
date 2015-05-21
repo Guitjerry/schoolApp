@@ -28,7 +28,7 @@ hostelSelector.Init = function (input) {
         }
         hostelSelector.hotCityhtmls = "";
         hostelSelector.provHtmls = "";
-
+        $("#hostel").val("");
         if(locationParam=="北京大学"){
             itemParmnLength=hostelSelector.pc.length;
             hotItemParmnLength=hostelSelector.pc.hotCity.length;

@@ -66,7 +66,7 @@ schoolSelector.Init = function (input) {
     $("#" + input).click(function () {
         //清空宿舍盘号
         $("#hostel_num").val("");
-
+        $("#hostel").val("");
         $("#js_cityBox").remove();
         $("body").append(schoolSelector.template);
 

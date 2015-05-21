@@ -1,6 +1,7 @@
 package com.sushe.test;
 
 import com.sushe.entity.Hostel;
+import com.sushe.entity.HostelBuild;
 import com.sushe.service.HostelService;
 import com.sushe.util.MyBatisUtil;
 import org.apache.ibatis.session.SqlSession;
@@ -9,6 +10,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * Created by Administrator on 2015/5/20.
@@ -23,7 +25,7 @@ public class Test {
     }
     @org.junit.Test
     public void testSelectHostelByBuildAndSchool(){
-       Hostel hostel=hostelService.selectHostelByBuildAndSchool("东校区8栋", "1");
-        System.out.printf(hostel.toString());
+       List<HostelBuild> hostels=hostelService.selectHostelByBuildAndSchool("东校区8栋", "1");
+        System.out.print(hostels.get(0).getHostels().get(0).getName());
     }
 }

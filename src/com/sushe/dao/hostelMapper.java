@@ -2,7 +2,9 @@ package com.sushe.dao;
 
 import com.sushe.entity.Hostel;
 import com.sushe.entity.Hostel;
+import com.sushe.entity.HostelBuild;
 
+import java.util.List;
 import java.util.Map;
 
 public interface hostelMapper {
@@ -18,5 +20,5 @@ public interface hostelMapper {
 
     int updateByPrimaryKey(Hostel record);
 
-    Hostel selectHostelByBuildAndSchool(Map<String,Object> map);
+    List<HostelBuild> selectHostelByBuildAndSchool(Map<String,String> map);
 }

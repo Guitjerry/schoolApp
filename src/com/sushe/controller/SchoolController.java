@@ -27,8 +27,8 @@ public class SchoolController {
     public void selectSchoolByName(@RequestParam("name") String name,HttpServletResponse re){
         try{
             School school=schoolService.selectByName(name);
-            JsonUtilTemp.returnSucessJson(re,"查询学校成功");
-            JsonUtilTemp.returnJson(school,re);
+           //JsonUtilTemp.returnSucessJson(re,"查询学校成功");
+            JsonUtilTemp.returnObjAndSuccessJson(school,re);
         }catch (Exception e){
             e.printStackTrace();
             JsonUtilTemp.returnFailJson(re,"查询学校失败");

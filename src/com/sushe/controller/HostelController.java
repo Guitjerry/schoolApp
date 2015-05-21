@@ -1,6 +1,7 @@
 package com.sushe.controller;
 
 import com.sushe.entity.Hostel;
+import com.sushe.entity.HostelBuild;
 import com.sushe.service.HostelService;
 import com.sushe.util.JsonUtilTemp;
 import org.springframework.stereotype.Controller;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
+import java.util.List;
 
 /**
  * Created by Administrator on 2015/5/20.
@@ -21,11 +23,11 @@ public class HostelController {
     @RequestMapping("/selectHostelByBuildAndSchool")
     public void selectHostelByBuildAndSchool(@RequestParam("name") String name,@RequestParam("school_id") String school_id,HttpServletResponse response){
         try{
-            Hostel hostel=null;
-           hostel=hostelService.selectHostelByBuildAndSchool(name, school_id);
-            if(hostel!=null){
-                JsonUtilTemp.returnSucessJson(response,"查询宿舍成功");
-                JsonUtilTemp.returnJson(hostel,response);
+            List<HostelBuild> hostelBuilds=null;
+            hostelBuilds=hostelService.selectHostelByBuildAndSchool(name, school_id);
+            if(hostelBuilds!=null){
+               // JsonUtilTemp.returnSucessJson(response,"查询宿舍成功");
+                JsonUtilTemp.returnObjAndSuccessJson(hostelBuilds,response);
             }else{
                 JsonUtilTemp.returnFailJson(response,"查询宿舍失败");
             }

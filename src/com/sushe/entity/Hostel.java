@@ -1,7 +1,7 @@
 package com.sushe.entity;
 
 public class Hostel {
-    private String id;
+    private String s_id;
 
     private String code;
 
@@ -18,11 +18,11 @@ public class Hostel {
     private String name;
 
     public String getId() {
-        return id;
+        return s_id;
     }
 
     public void setId(String id) {
-        this.id = id == null ? null : id.trim();
+        this.s_id = id == null ? null : id.trim();
     }
 
     public String getCode() {

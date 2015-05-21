@@ -2,11 +2,13 @@ package com.sushe.service.impl;
 
 import com.sushe.dao.hostelMapper;
 import com.sushe.entity.Hostel;
+import com.sushe.entity.HostelBuild;
 import com.sushe.service.HostelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -25,8 +27,8 @@ public class HostelServiceImpl implements HostelService {
     }
 
     @Override
-    public Hostel selectHostelByBuildAndSchool(String name, String school_id) {
-        Map<String,Object> map=new HashMap<>();
+    public List<HostelBuild> selectHostelByBuildAndSchool(String name, String school_id) {
+        Map<String,String> map=new HashMap<>();
         map.put("name",name);
         map.put("school_id",school_id);
         return hostelMapper.selectHostelByBuildAndSchool(map);

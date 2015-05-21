@@ -2,10 +2,7 @@ var hostelNumSelector = {};
 hostelNumSelector.hotCityhtmls = "";
 
 hostelNumSelector.Init = function (input) {
-    for (var i = 0; i <5; i++) {
-        hostelNumSelector.hotCityhtmls += "<li class='js_cityName'>" +"屌丝宿舍" + "</li>";
-    }
-    hostelNumSelector.template = '<div class="city-box" id="js_cityBox"><div class="prov-city" id="js_provCity"><p>校区宿舍<span style="padding-left: 300px;cursor: pointer" onclick="hideDiv()">x</span></p><ul>' + hostelNumSelector.hotCityhtmls + '</ul></div></div>';
+
     $("#" + input).click(function () {
         var locationParam=$("#hostel_num").val();
         if(locationParam==""){
@@ -17,24 +14,51 @@ hostelNumSelector.Init = function (input) {
             url:"../../school/selectSchoolByName.do",
             data:{"name":$("#school").val()},
             success:function(data){
-                var obj=rdcp.str2json(data);
-                if(obj.status=="success"){
+                var school_obj=rdcp.str2json(data);
+
+                if(school_obj.status=="success"){
                     //根据学校,楼盘找到相关宿舍
+                    $.ajax({
+                        url:"../../hostel/selectHostelByBuildAndSchool.do",
+                        data:{"name":$("#hostel_num").val(),"school_id":school_obj.entity.id},
+                        success:function(data){
+                            var hostel_obj=rdcp.str2json(data);
+
+                            if(hostel_obj.status=="success"){
+                                hostelNumSelector.hotCityhtmls="";
+                                for (var i = 0; i <hostel_obj.entity.length; i++) {
+                                    hostelNumSelector.hotCityhtmls += "<li class='js_cityName'>" +hostel_obj.entity[i].hostels[0].name + "</li>";
+                                }
+
+                                hostelNumSelector.template = '<div class="city-box" id="js_cityBox"><div class="prov-city" id="js_provCity"><p>校区宿舍<span style="padding-left: 300px;cursor: pointer" onclick="hideDiv()">x</span></p><ul>' + hostelNumSelector.hotCityhtmls + '</ul></div></div>';
+                                $("#js_cityBox").remove();
+
+                                $("body").append(hostelNumSelector.template);
+
+                                var _top = $("#" + input).offset().top + 40,
+                                    _left = $("#" + input).offset().left,
+                                    _width = $(window).width();
+                                if (_width - _left < 450) {
+                                    $("#js_cityBox").css({ "top": _top + "px", "right": "0px" }).addClass("rightSelector");
+                                }
+                                else {
+                                    $("#js_cityBox").css({ "top": _top + "px", "left": _left + "px" });
+                                }
+
+
+                                $("#js_cityBox").on("click", ".js_cityName", function (e) {
+                                    e.stopPropagation();
+                                    $("#" + input).val($(this).html());
+                                    $("#js_cityBox").remove();
+                                });
+
+                            }
+                        }
+                    })
                 }
             }
         })
-        $("#js_cityBox").remove();
-        $("body").append(hostelNumSelector.template);
 
-        var _top = $(this).offset().top + 40,
-            _left = $(this).offset().left,
-            _width = $(window).width();
-        if (_width - _left < 450) {
-            $("#js_cityBox").css({ "top": _top + "px", "right": "0px" }).addClass("rightSelector");
-        }
-        else {
-            $("#js_cityBox").css({ "top": _top + "px", "left": _left + "px" });
-        }
     });
 }
 function hideDiv(){
