@@ -1,5 +1,6 @@
 package com.sushe.service.impl;
 
+import com.sushe.dao.UserDao;
 import com.sushe.dao.hostelMapper;
 import com.sushe.entity.Hostel;
 import com.sushe.entity.HostelBuild;
@@ -17,6 +18,15 @@ import java.util.Map;
 @Service("hostelService")
 public class HostelServiceImpl implements HostelService {
     private hostelMapper hostelMapper;
+    private UserDao userDao;
+
+    public UserDao getUserDao() {
+        return userDao;
+    }
+    @Autowired
+    public void setUserDao(UserDao userDao) {
+        this.userDao = userDao;
+    }
 
     public hostelMapper getHostelMapper() {
         return hostelMapper;
@@ -28,9 +38,23 @@ public class HostelServiceImpl implements HostelService {
 
     @Override
     public List<HostelBuild> selectHostelByBuildAndSchool(String name, String school_id) {
-        Map<String,String> map=new HashMap<>();
-        map.put("name",name);
-        map.put("school_id",school_id);
-        return hostelMapper.selectHostelByBuildAndSchool(map);
+        return hostelMapper.selectHostelByBuildAndSchool(name,school_id);
     }
+    @Override
+    public int updateByPrimaryKeySelective(Map<String,String> params){
+        return hostelMapper.updateByPrimaryKeySelective(params);
+    }
+
+    @Override
+    public int updateUserAndHostel(Map<String, String> hostelMaps,Map<String, String> userMaps) {
+       int re= userDao.updateByPrimaryKeySelective(userMaps);
+        if(re==1){
+            return hostelMapper.updateByPrimaryKeySelective(hostelMaps);
+        }else{
+            return 0;
+        }
+
+    }
+
+
 }

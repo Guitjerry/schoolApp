@@ -16,13 +16,22 @@ public class Hostel {
     private String note;
 
     private String name;
+    private String user_id;
+
+    public String getUser_id() {
+        return user_id;
+    }
+
+    public void setUser_id(String user_id) {
+        this.user_id = user_id;
+    }
 
     public String getId() {
         return s_id;
     }
 
-    public void setId(String id) {
-        this.s_id = id == null ? null : id.trim();
+    public void setId(String s_id) {
+        this.s_id = s_id == null ? null : s_id.trim();
     }
 
     public String getCode() {

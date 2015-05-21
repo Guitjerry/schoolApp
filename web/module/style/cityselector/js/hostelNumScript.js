@@ -27,7 +27,7 @@ hostelNumSelector.Init = function (input) {
                             if(hostel_obj.status=="success"){
                                 hostelNumSelector.hotCityhtmls="";
                                 for (var i = 0; i <hostel_obj.entity.length; i++) {
-                                    hostelNumSelector.hotCityhtmls += "<li class='js_cityName'>" +hostel_obj.entity[i].hostels[0].name + "</li>";
+                                    hostelNumSelector.hotCityhtmls += "<li class='js_cityName' hostel='"+hostel_obj.entity[i].hostels[0].id+"'"+">" +hostel_obj.entity[i].hostels[0].name + "</li>";
                                 }
 
                                 hostelNumSelector.template = '<div class="city-box" id="js_cityBox"><div class="prov-city" id="js_provCity"><p>校区宿舍<span style="padding-left: 300px;cursor: pointer" onclick="hideDiv()">x</span></p><ul>' + hostelNumSelector.hotCityhtmls + '</ul></div></div>';
@@ -49,6 +49,8 @@ hostelNumSelector.Init = function (input) {
                                 $("#js_cityBox").on("click", ".js_cityName", function (e) {
                                     e.stopPropagation();
                                     $("#" + input).val($(this).html());
+
+                                    $("#" + input).next("span").text($(this).attr("hostel"))
                                     $("#js_cityBox").remove();
                                 });
 

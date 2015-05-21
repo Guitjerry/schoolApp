@@ -14,7 +14,8 @@
   <link rel="stylesheet" href="user_config.css">
 </head>
 <body>
-    <div class="profile-wrap">
+<jsp:include page="/module/style/common/header.jsp"></jsp:include>
+    <div class="profile-wrap" style="margin-top: 10px">
   <h2 class="profile-title"><span class="glyphicon glyphicon-cog"></span>设置</h2>
   <div class="profile-main">
     <div class="profile-tab clearfix">
@@ -105,8 +106,9 @@
                     宿舍号:
                   </td>
                   <td>
-                    <input name="hostel" id="hostel" readonly="readonly" placeholder="请选择宿舍"
+                    <input  name="hostel" id="hostel" readonly="readonly" placeholder="请选择宿舍"
                            class="SR_pureInput">
+                    <span style="display: none" id="hostel_span"></span>
                   </td>
                 </tr>
                 <tr style="height: 10px">
@@ -115,7 +117,7 @@
                 <tr>
                   <td></td>
                   <td>
-                    <button type="submit" class="btn btn-primary">确定</button>
+                    <button class="btn btn-info" onclick="updateHostel()" >确定</button>
                   </td>
                 </tr>
 
@@ -216,5 +218,24 @@
   function cancel(classid){
     $("."+classid+" .tpl-main").hide();
     $("."+classid+" .show-main").show();
+  }
+  //更新学生信息
+  function updateHostel(){
+    if($("input[name='customer_name']").val()==""){
+      rdcp.toastrWarnMessage("请填写姓名","系统提示");
+      return;
+    }
+    if($("#hostel").val()!=""){
+      $.ajax({
+        url:"../../hostel/updateHostelUser.do",
+        data:{"id":$("#hostel_span").text(),"user_id":$("#user_id").val(),"name":$("input[name='customer_name']").val()},
+        success:function(data){
+          var obj=rdcp.str2json(data);
+          if(obj.status=="success"){
+            rdcp.toastrSuccessMessage("更新用户信息成功");
+          }
+        }
+      })
+    }
   }
 </script>
