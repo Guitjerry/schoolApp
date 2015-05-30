@@ -4,7 +4,6 @@
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-3.2.0.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-context-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-3.0.5.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-core-3.2.0.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-3.2.0.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-3.1.1.RELEASE.jar!/" />
@@ -14,6 +13,8 @@
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-3.2.0.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-web-3.2.0.RELEASE-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

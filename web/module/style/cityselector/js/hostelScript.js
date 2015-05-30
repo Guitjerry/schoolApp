@@ -142,6 +142,8 @@ hostelSelector.Init = function (input) {
         $("#js_cityBox").on("click", ".js_cityName", function (e) {
             e.stopPropagation();
             $("#" + _input).val($(this).html());
+
+            //查询楼号
             $("#js_cityBox").remove();
         });
     });

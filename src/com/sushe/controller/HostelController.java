@@ -50,6 +50,7 @@ public class HostelController {
         user_map.put("id",user_id);
 
         try{
+            //需要把楼号的其他宿舍设置为空再设置
             int result=hostelService.updateUserAndHostel(map,user_map);
             if(result==1){
                 JsonUtilTemp.returnSucessJson(response,"更新宿舍用户成功");

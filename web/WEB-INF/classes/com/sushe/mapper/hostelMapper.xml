@@ -148,4 +148,8 @@
       name = #{name,jdbcType=VARCHAR}
     where id = #{id,jdbcType=VARCHAR}
   </update>
+
+  <update id="updateByBuildId" parameterType="com.sushe.entity.Hostel">
+    update hostel set user_id='' where build_id= #{build_id,jdbcType=VARCHAR}
+  </update>
 </mapper>
